@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
 
 public class sum_01 {
     public int[] twoSum(int[] nums, int target) {
@@ -100,4 +101,32 @@ class sum_02{
         return result;
     }
 
+
+    class sum_03 {
+        /**
+         *
+         * @param nums
+         * @param target
+         * @return
+         * the reason why it has O(n) time. is:
+         * containskey(),get() takes O(1) time.
+         */
+        public int[] twoSum(int[] nums, int target) {
+            int []result = new int[2];
+            HashMap<Integer,Integer> hashMap = new HashMap<Integer, Integer>();
+            for(int i=0;i<nums.length;i++){
+                if(hashMap.containsKey(nums[i])){
+                    result[0]=hashMap.get(nums[i]);
+                    result[1]=i;
+                    return result;
+                }else{
+                    hashMap.put(target-nums[i],i);
+                }
+
+            }
+            return new int[]{0,0};
+        }
+
+
+    }
 }
