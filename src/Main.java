@@ -11,7 +11,11 @@ public class Main {
 //
 //            //System.out.println(Boolean.SIZE/8);
 //        }
-        System.out.println(Integer.SIZE/8);
+//        System.out.println(Integer.SIZE/8);
+        int[] x={1,3,5};
+        int[] y={2};
+        double j=new findMedianSortedArrays().findMedianSortedArrays(x,y);
+        System.out.println(j);
 
 
     }
