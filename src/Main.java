@@ -14,8 +14,13 @@ public class Main {
 //        System.out.println(Integer.SIZE/8);
         int[] x={1,3,5};
         int[] y={2};
-        double j=new findMedianSortedArrays().findMedianSortedArrays(x,y);
-        System.out.println(j);
+        String s="ccc";
+        String ss= s+"asdg";
+//        double j=new findMedianSortedArrays().findMedianSortedArrays(x,y);
+//        System.out.println(j);
+//        String rs=new LongestPalindrome().longestPalindrome(s);
+        String rs = new convert().convert("PAYPALISHIRING", 3);
+        System.out.println(rs);
 
 
     }

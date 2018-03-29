@@ -1,4 +1,13 @@
 public class findMedianSortedArrays {
+    /**
+     *
+     * @param nums1
+     * @param nums2
+     * @return the median of two sorted arrays.
+     * Method: 1. use the iteration to halve the problem domain.
+     *          2. use one array to binary search.
+     *          3. use the graph to demonstrate the boundary conditions
+     */
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int l1=nums1.length;
@@ -44,7 +53,7 @@ public class findMedianSortedArrays {
 
     }
 
-    public int halfsearch(int[] num,int key){
+    public int binarysearch(int[] num,int key){
         int max,min,mid;
         min=0;
         max=num.length-1;
