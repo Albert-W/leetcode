@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 
-public class sum_01 {
+public class TowSum {
     public int[] twoSum(int[] nums, int target) {
         int[] result= new int[2];
         for(int i=0;i<nums.length ;i++){
@@ -16,10 +16,8 @@ public class sum_01 {
         }
         return result;
     }
-}
 
 
-class sum_02{
     /**
      *
      * @param ob the object two dimentional array
@@ -67,13 +65,13 @@ class sum_02{
      *
      * @param ob the object you want to sort.
      */
-     void sort(int [][] ob){
+    void sort(int [][] ob){
         Arrays.sort(ob, new mycom(0));
 
     }
 
 
-    public int[] twoSum(int[] nums, int target) {
+    public int[] twoSum2(int[] nums, int target) {
         int[] result= new int[2];
         //build the two dimensional array.
         int[][] temp = new int [nums.length][2];
@@ -130,3 +128,7 @@ class sum_02{
 
     }
 }
+
+
+
+

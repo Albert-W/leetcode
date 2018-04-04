@@ -26,9 +26,10 @@ public class Main {
 //        System.out.println(new myAtoi().myAtoi("9223372036854775809"));
 //        System.out.println(new isPalindrome().isPalindrome(121));
 //        char *s="good";
-        System.out.println(new isMatch().isMatch("","c*c*"));
-        String s="good";
-        System.out.println(s.charAt(3));
-
+//        System.out.println(new isMatch().isMatch("","c*c*"));
+//        String s="good";
+//        System.out.println(s.charAt(3));
+        System.out.println(new IntToRoman().intToRoman(3999));
+        System.out.println(new RomanToInt().romanToInt("MMMCMXCIX"));
     }
 }
