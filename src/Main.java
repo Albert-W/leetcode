@@ -29,7 +29,10 @@ public class Main {
 //        System.out.println(new isMatch().isMatch("","c*c*"));
 //        String s="good";
 //        System.out.println(s.charAt(3));
-        System.out.println(new IntToRoman().intToRoman(3999));
-        System.out.println(new RomanToInt().romanToInt("MMMCMXCIX"));
+//        System.out.println(new IntToRoman().intToRoman(3999));
+//        System.out.println(new RomanToInt().romanToInt("MMMCMXCIX"));
+        String[] s= {"abcd","abc"};
+        System.out.println(s[0].substring(0,3));//abc, 3 letters.
+        System.out.println(new LongestCommonPrefix().longestCommonPrefix(s));
     }
 }

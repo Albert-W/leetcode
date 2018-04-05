@@ -4,7 +4,7 @@
       int val;
       ListNode next;
       ListNode(int x) { val = x; }
-  }
+   }
 
     //1. when you do not know how to deal with the head point.
     //just save another one, leap once at the end.
