@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestCommonPrefix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FourSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreeSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThreeSumClosest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/add_two_numbers.java" afterPath="$PROJECT_DIR$/src/add_two_numbers.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +29,27 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="34" column="65" lean-forward="false" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="190">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#Main#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestCommonPrefix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LongestCommonPrefix.java">
+      <file leaf-file-name="TowSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TowSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="-47">
+              <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
               <folding>
-                <element signature="e#0#658#0" expanded="true" />
+                <element signature="method#sort#0;class#TowSum#0" expanded="true" />
+                <element signature="method#compare#0;class#mycom#0;class#TowSum#0" expanded="true" />
+                <element signature="method#twoSum2#0;class#TowSum#0" expanded="true" />
+                <element signature="docComment;method#twoSum#0;class#sum_03#0;class#TowSum#0" expanded="true" />
+                <element signature="method#twoSum#0;class#sum_03#0;class#TowSum#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +97,10 @@
         <option value="$PROJECT_DIR$/src/TowSum.java" />
         <option value="$PROJECT_DIR$/src/add_two_numbers.java" />
         <option value="$PROJECT_DIR$/src/LongestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/ThreeSum.java" />
+        <option value="$PROJECT_DIR$/src/ThreeSumClosest.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/FourSum.java" />
       </list>
     </option>
   </component>
@@ -100,8 +111,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="365" />
-    <option name="width" value="1343" />
+    <option name="x" value="637" />
+    <option name="y" value="12" />
+    <option name="width" value="1460" />
     <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -123,7 +135,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,8 +152,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,7 +231,10 @@
       <workItem from="1522675599649" duration="187000" />
       <workItem from="1522745648527" duration="17807000" />
       <workItem from="1522838174456" duration="7759000" />
-      <workItem from="1522945915371" duration="3262000" />
+      <workItem from="1522945915371" duration="3324000" />
+      <workItem from="1523004073371" duration="639000" />
+      <workItem from="1523120867389" duration="17000" />
+      <workItem from="1523272132037" duration="9399000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -284,14 +299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522852264713</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="14. Longest Common Prefix">
+      <created>1522949226751</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1522949226751</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73913000" />
+    <option name="totallyTimeSpent" value="84030000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="365" y="0" width="1343" height="1041" extended-state="0" />
+    <frame x="637" y="12" width="1460" height="1041" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -302,18 +324,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61376894" sideWeight="0.5028129" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2936321" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2629717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27537924" sideWeight="0.49718705" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22301024" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21717171" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3985849" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4787736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21828212" sideWeight="0.5117057" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -337,11 +359,12 @@
     <MESSAGE value="2.add findMedianSortedArrays.java" />
     <MESSAGE value="10. isMatch" />
     <MESSAGE value="13.Roman to Integer" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.Roman to Integer" />
+    <MESSAGE value="14. Longest Common Prefix" />
+    <option name="LAST_COMMIT_MESSAGE" value="14. Longest Common Prefix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -350,27 +373,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/isMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
           <folding>
-            <element signature="e#0#2559#0" expanded="true" />
-            <element signature="method#isMatch2#0;class#isMatch#0" expanded="true" />
-            <element signature="method#isMatch#0;class#isMatch#0" expanded="true" />
-            <element signature="method#isMatch#1;class#isMatch#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#658#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -379,7 +394,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#2559#0" expanded="false" />
+            <element signature="method#isMatch2#0;class#isMatch#0" expanded="false" />
+            <element signature="method#isMatch#0;class#isMatch#0" expanded="false" />
+            <element signature="method#isMatch#1;class#isMatch#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -394,7 +489,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -409,7 +507,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -424,7 +525,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -439,7 +543,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -447,7 +554,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -469,7 +579,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -477,7 +590,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -494,7 +610,7 @@
           <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="docComment;method#findMedianSortedArrays#0;class#findMedianSortedArrays#0" expanded="false" />
-            <element signature="method#binarysearch#0;class#findMedianSortedArrays#0" expanded="true" />
+            <element signature="method#binarysearch#0;class#findMedianSortedArrays#0" expanded="false" />
             <marker date="1522256636180" expanded="true" signature="702:1063" ph="..." />
           </folding>
         </state>
@@ -576,8 +692,8 @@
         <state relative-caret-position="456">
           <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
           <folding>
-            <element signature="e#0#1335#0" expanded="true" />
-            <element signature="method#maxArea2#0;class#MaxArea#0" expanded="true" />
+            <element signature="e#0#1335#0" expanded="false" />
+            <element signature="method#maxArea2#0;class#MaxArea#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -595,25 +711,10 @@
         <state relative-caret-position="494">
           <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
           <folding>
-            <element signature="e#0#2559#0" expanded="true" />
-            <element signature="method#isMatch2#0;class#isMatch#0" expanded="true" />
-            <element signature="method#isMatch#0;class#isMatch#0" expanded="true" />
-            <element signature="method#isMatch#1;class#isMatch#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TowSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#twoSum#0;class#TowSum#0" expanded="true" />
-            <element signature="method#compare#0;class#719:1316" expanded="true" />
-            <element signature="method#twoSum2#0;class#TowSum#0" expanded="true" />
-            <element signature="method#twoSum#0;class#sum_03#0;class#TowSum#0" expanded="true" />
-            <element signature="e#3030#3048#0" expanded="false" />
+            <element signature="e#0#2559#0" expanded="false" />
+            <element signature="method#isMatch2#0;class#isMatch#0" expanded="false" />
+            <element signature="method#isMatch#0;class#isMatch#0" expanded="false" />
+            <element signature="method#isMatch#1;class#isMatch#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -623,8 +724,8 @@
         <state relative-caret-position="494">
           <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
-            <element signature="e#0#614#0" expanded="true" />
-            <element signature="method#intToRoman#0;class#IntToRoman#0" expanded="true" />
+            <element signature="e#0#614#0" expanded="false" />
+            <element signature="method#intToRoman#0;class#IntToRoman#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -634,7 +735,7 @@
         <state relative-caret-position="361">
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
-            <element signature="method#romanToInt#0;class#RomanToInt#0" expanded="true" />
+            <element signature="method#romanToInt#0;class#RomanToInt#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -644,7 +745,7 @@
         <state relative-caret-position="-142">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <element signature="method#addTwoNumbers#0;class#Solution#0;class#add_two_numbers#0" expanded="true" />
+            <element signature="method#addTwoNumbers#0;class#Solution#0;class#add_two_numbers#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -659,11 +760,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TowSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+          <folding>
+            <element signature="method#sort#0;class#TowSum#0" expanded="true" />
+            <element signature="method#compare#0;class#mycom#0;class#TowSum#0" expanded="true" />
+            <element signature="method#twoSum2#0;class#TowSum#0" expanded="true" />
+            <element signature="docComment;method#twoSum#0;class#sum_03#0;class#TowSum#0" expanded="true" />
+            <element signature="method#twoSum#0;class#sum_03#0;class#TowSum#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreeSumClosest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="106" column="54" lean-forward="true" selection-start-line="106" selection-start-column="54" selection-end-line="106" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#fourSum2#0;class#FourSum#0" expanded="true" />
+            <element signature="e#344#359#0" expanded="true" />
+            <element signature="method#threeSum#0;class#FourSum#0" expanded="true" />
+            <element signature="e#939#954#0" expanded="true" />
+            <element signature="method#twosumofsortarray#0;class#FourSum#0" expanded="true" />
+            <element signature="e#1567#1582#0" expanded="true" />
+            <element signature="method#fourSum#0;class#FourSum#0" expanded="true" />
+            <element signature="e#2147#2162#0" expanded="true" />
+            <element signature="e#2488#2497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="104" selection-end-column="5" />
+          <folding>
+            <element signature="method#threeSum2#0;class#ThreeSum#0" expanded="true" />
+            <element signature="e#524#539#0" expanded="true" />
+            <element signature="e#1028#1043#0" expanded="true" />
+            <element signature="e#1154#1172#0" expanded="true" />
+            <element signature="e#1752#1767#0" expanded="true" />
+            <element signature="method#twosumofsortarray#0;class#ThreeSum#0" expanded="true" />
+            <element signature="e#2355#2370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="34" column="65" lean-forward="false" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
-          <folding />
+        <state relative-caret-position="190">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

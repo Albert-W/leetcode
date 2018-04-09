@@ -1,38 +1,12 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.List;
 import java.util.Random;
 
 public class Main {
-
     public static void main(String[] args) {
-//        for(int i=0;i<100;i++){
-//            Random random = new Random();
-//            System.out.println(random.nextInt());
-//
-//
-//
-//            //System.out.println(Boolean.SIZE/8);
-//        }
-//        System.out.println(Integer.SIZE/8);
-//        int[] x={1,3,5};
-//        int[] y={2};
-//        String s="ccc";
-//        String ss= s+"asdg";
-//        double j=new findMedianSortedArrays().findMedianSortedArrays(x,y);
-//        System.out.println(j);
-//        String rs=new LongestPalindrome().longestPalindrome(s);
-//        String rs = new convert().convert("PAYPALISHIRING", 3);
-//        System.out.println(rs);
-        //int x = Math.abs(-2147483648);
-        //System.out.println(new Reverse().reverse(153423));
-//        System.out.println(new myAtoi().myAtoi("9223372036854775809"));
-//        System.out.println(new isPalindrome().isPalindrome(121));
-//        char *s="good";
-//        System.out.println(new isMatch().isMatch("","c*c*"));
-//        String s="good";
-//        System.out.println(s.charAt(3));
-//        System.out.println(new IntToRoman().intToRoman(3999));
-//        System.out.println(new RomanToInt().romanToInt("MMMCMXCIX"));
-        String[] s= {"abcd","abc"};
-        System.out.println(s[0].substring(0,3));//abc, 3 letters.
-        System.out.println(new LongestCommonPrefix().longestCommonPrefix(s));
+        int []i={1, 0, -1, 0, -2, 2};
+        System.out.println(new FourSum().fourSum(i,0));
     }
 }
