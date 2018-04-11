@@ -7,6 +7,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         int []i={1, 0, -1, 0, -2, 2};
-        System.out.println(new FourSum().fourSum(i,0));
+        //System.out.println(new FourSum().fourSum(i,0));
+        System.out.println(new LetterCombinations().letterCombinations("234"));
     }
 }

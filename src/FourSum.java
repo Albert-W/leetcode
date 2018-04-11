@@ -84,31 +84,36 @@ public class FourSum {
             return res;
 
         int i=0,j=1,m=2,n=3;
-        res.add(fourSum(nums,target,i,j,m,n));
+        fourSum(nums,target,i,j,m,n,res);
         return res;
     }
-    public List<Integer> fourSum(int[] nums, int target, int i,int j, int k,int l) {
-        List<Integer> res = new ArrayList<Integer>();
+    public void fourSum(int[] nums, int target, int i,int j, int k,int l,List<List<Integer>> res) {
+        List<Integer> tmp = new ArrayList<Integer>();
         if(nums.length<4)
             //return null; 不能用[] 不等于 null.
-            return res;
-        if(i<j&&j<k&&k<l&&l<nums.length){
+            return ;
+
+        if(!(i<j&&j<k&&k<l&&l<nums.length)) {
+            return;
+        }   else {
             if(nums[i]+nums[j]+nums[k]+nums[l]==target){
-                res.add(nums[i]);
-                res.add(nums[j]);
-                res.add(nums[k]);
-                res.add(nums[l]);
-                return res;
+                tmp.add(nums[i]);
+                tmp.add(nums[j]);
+                tmp.add(nums[k]);
+                tmp.add(nums[l]);
+                res.add(tmp);
+                //return ;
             }
-            else {
-                 fourSum(nums,target,i++,j,k,l);
-                 fourSum(nums,target,i,j++,k,l);
-                 fourSum(nums,target,i,j,k++,l);
-                return fourSum(nums,target,i,j,k,l++);
-            }
+            //it does not work out. too redundant
 
+                fourSum(nums,target,i+1,j,k,l,res);
+                fourSum(nums,target,i,j+1,k,l,res);
+                fourSum(nums,target,i,j,k+1,l,res);
+                fourSum(nums,target,i,j,k,l+1,res);
 
-        } else
-            return new ArrayList<Integer>();
+            return;
+        }
+
+        //return;
     }
 }
