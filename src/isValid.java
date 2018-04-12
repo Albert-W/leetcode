@@ -5,9 +5,7 @@ Given a string containing just the characters '(', ')', '{', '}', '[' and ']', d
 The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
  */
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Stack;
+import java.util.*;
 
 public class isValid {
     //this is not correct.
@@ -45,7 +43,7 @@ public class isValid {
 
     }
     //
-    public boolean isValid(String s) {
+    public boolean isValid4(String s) {
         Stack<Character> stack = new Stack<>();
         for(int i =0;i<s.length();i++){
             if(s.charAt(i)=='('||s.charAt(i)=='{'||s.charAt(i)=='[')
@@ -74,4 +72,22 @@ public class isValid {
         else return false;
 
     }
+
+
+    enum parentheses1{
+        ONE('(',1);
+        private Character c;
+        private Integer i;
+        private parentheses1(Character c,Integer i){
+            this.c = c;
+            this.i =i;
+        }
+
+
+    }
+
+
+
+
+
 }
