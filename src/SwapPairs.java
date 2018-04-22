@@ -21,7 +21,7 @@ public class SwapPairs {
 
         while(left!=null && left.next!=null){ //if the next two node is valid;
             right=left.next;
-            
+
             //do the change;
             left.next=right.next;
             right.next=left;
