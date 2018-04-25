@@ -38,7 +38,7 @@ public class RepeatedSubstringPattern {
     public boolean repeatedSubstringPattern(String s) {
 
 
-        for (int i = 0; i < s.length() / 2; i++) {
+        for (int i = 0; ; i++) {
             while (s.length() % (i + 1) != 0) i++; //make the loops as less as possible;
             if (i >= s.length() / 2) return false;
 
@@ -49,6 +49,6 @@ public class RepeatedSubstringPattern {
             if (j == s.length())
                 return true;
         }
-        return false;
+
     }
 }
