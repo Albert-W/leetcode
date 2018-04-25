@@ -16,7 +16,7 @@ Although the above answer is in lexicographical order, your answer could be in a
  */
 
 /*
-    *digits.substring(0,1) means the string of first letter.
+    * substring(0,1) means the string of first letter.
     * substring(i,i+1) means the string of i th letter.
  */
 
