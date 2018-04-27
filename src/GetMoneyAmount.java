@@ -24,6 +24,9 @@ Given a particular n ≥ 1, find out how much money you need to have to guarante
 /*
 例如【1，2，3，4】
 minmax 方案是，先3，后1
+
+需要动态规划：先中i, 判断1~i-1, i+1~n 的最大值；
+g(1..n,i)=min(i+max(g(1..i-1),g(i+1..n));
 */
 
 class getMoneyAmount
