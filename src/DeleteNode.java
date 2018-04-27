@@ -6,6 +6,7 @@ Supposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node wi
 
 一个链表中，以某个结点输入，删除链表中的此结点；
  */
+//test
 public class DeleteNode {
     public void deleteNode(ListNode node) {
         if(node.next==null){
