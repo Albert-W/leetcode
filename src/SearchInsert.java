@@ -24,6 +24,7 @@ Output: 0
 
 
  */
+//it's a mark form sublim
 public class SearchInsert {
 	public int searchInsert2(int[] nums, int target) {
 		for (int i = 0; i < nums.length; i++) {
