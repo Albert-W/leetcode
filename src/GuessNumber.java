@@ -21,6 +21,12 @@ Return 6.
    @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
       int guess(int num); */
 
+class GuessGame{
+	int guess(int mid){
+		return 0;
+	}
+}
+
 public class GuessNumber extends GuessGame {
     public int guessNumber(int n) {
     	int left=1,right=n;

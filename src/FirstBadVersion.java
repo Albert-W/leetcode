@@ -10,7 +10,14 @@ You are given an API bool isBadVersion(version) which will return whether versio
 /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
 
-public class firstBadVersion extends VersionControl {
+class VersionControl{
+    boolean isBadVersion(int version){
+        return true;
+    };
+}
+
+
+public class FirstBadVersion extends VersionControl {
     public int firstBadVersion(int n) {
     	int left=1,right=n;
     	int mid=0;
