@@ -18,7 +18,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 //fourth time
 //fifth time
 
-public class convert {
+public class Convert {
     /**
      *
      * @param s

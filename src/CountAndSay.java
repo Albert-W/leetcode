@@ -41,9 +41,56 @@ Output: "1211"
  */
 
 public class CountAndSay {
+    //the smart recurrence
+    private String recurrence(String s){
+        StringBuilder result= new StringBuilder();
+        int count=0;
+        int front=0;
+        while(front<s.length()){
+            int back=front;
+            while(front<s.length() && s.charAt(back)==s.charAt(front) ){
+                front++;
+                count++;
+            }
+            result.append(count);
+            result.append(s.charAt(back));
+            count=0;
+        }
+        return result.toString();
+    }
 
 
+
+    //recurrence method;
     public String countAndSay(int n) {
+        String result = new String("1");
+        while(n-->1) //first while(n>1), then n--;
+            result = recurrence(result);
+        return result;
+    }
+
+    private String recurrence2(String s){
+        StringBuilder result= new StringBuilder();
+        //start to read every word.
+        int count=1;
+
+        for(int i=1;i<s.length();i++){
+            if(s.charAt(i)==s.charAt(i-1)){
+                count++;
+            } else {
+                result.append(count);
+                result.append(s.charAt(i-1));
+                count=1;
+            }
+        }
+        result.append(count);
+        result.append(s.charAt(s.length()-1));
+        return result.toString();
+    }
+
+
+    //iteration method
+    public String countAndSay4(int n) {
         //result 用于持久保存，先设置为1
         StringBuilder result = new StringBuilder("1");
         while(n-- >1){
@@ -77,6 +124,26 @@ public class CountAndSay {
         return result.toString();
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //Time Limit Exceeded;
     public String countAndSay2(int n) {
         StringBuilder result = new StringBuilder();

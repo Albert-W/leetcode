@@ -9,7 +9,7 @@
     //1. when you do not know how to deal with the head point.
     //just save another one, leap once at the end.
    //2. HairCut Method: when two line have different length. cut one make them looks like at the same length.
-public class add_two_numbers {
+public class Add_two_numbers {
         class Solution {
             public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
                 ListNode L3 = new ListNode(0);
