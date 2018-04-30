@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Compress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RolveNQueens.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TotalNQueens.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaxProfit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaxProfit2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaxProfit3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaxProfit4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaxSubArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CountAndSay.java" afterPath="$PROJECT_DIR$/src/CountAndSay.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/add_two_numbers.java" afterPath="$PROJECT_DIR$/src/add_two_numbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/convert.java" afterPath="$PROJECT_DIR$/src/convert.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,34 +29,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RolveNQueens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RolveNQueens.java">
+      <file leaf-file-name="MaxSubArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MaxSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="82" column="5" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
+            <state relative-caret-position="322">
+              <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxProfit3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MaxProfit3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#dfs#0;class#RolveNQueens#0" expanded="true" />
-                <element signature="method#isvalid#0;class#RolveNQueens#0" expanded="true" />
-                <element signature="method#solveNQueens#0;class#RolveNQueens#0" expanded="true" />
-                <element signature="method#dfs2#0;class#RolveNQueens#0" expanded="true" />
-                <element signature="method#canPut#0;class#RolveNQueens#0" expanded="true" />
-                <element signature="method#dfs#1;class#RolveNQueens#0" expanded="true" />
+                <element signature="method#maxProfit3#0;class#MaxProfit3#0" expanded="true" />
+                <element signature="method#maxProfit2#0;class#MaxProfit3#0" expanded="true" />
+                <element signature="method#maxProfit#1;class#MaxProfit3#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TotalNQueens.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TotalNQueens.java">
+      <file leaf-file-name="MaxProfit4.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MaxProfit4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="590">
+              <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#dfs#0;class#TotalNQueens#0" expanded="true" />
-                <element signature="method#isValid#0;class#TotalNQueens#0" expanded="true" />
-                <element signature="method#totalNQueens#0;class#TotalNQueens#0" expanded="true" />
+                <element signature="method#maxProfit3#0;class#MaxProfit4#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,8 +68,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="63" lean-forward="false" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+            <state relative-caret-position="418">
+              <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -99,10 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/src/LongestSubstring.java" />
-        <option value="$PROJECT_DIR$/src/findMedianSortedArrays.java" />
-        <option value="$PROJECT_DIR$/src/LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/convert.java" />
         <option value="$PROJECT_DIR$/src/Reverse.java" />
         <option value="$PROJECT_DIR$/src/myAtoi.java" />
@@ -147,8 +145,13 @@
         <option value="$PROJECT_DIR$/src/CountAndSay.java" />
         <option value="$PROJECT_DIR$/src/solveNQueens.java" />
         <option value="$PROJECT_DIR$/src/RolveNQueens.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/TotalNQueens.java" />
+        <option value="$PROJECT_DIR$/src/MaxSubArray.java" />
+        <option value="$PROJECT_DIR$/src/MaxProfit.java" />
+        <option value="$PROJECT_DIR$/src/MaxProfit2.java" />
+        <option value="$PROJECT_DIR$/src/MaxProfit3.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/MaxProfit4.java" />
       </list>
     </option>
   </component>
@@ -158,10 +161,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="566" />
-    <option name="y" value="21" />
-    <option name="width" value="1478" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="904" />
+    <option name="y" value="9" />
+    <option name="width" value="967" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -182,8 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,14 +208,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -342,7 +345,11 @@
       <workItem from="1524653525808" duration="8960000" />
       <workItem from="1524906468724" duration="4108000" />
       <workItem from="1524910605868" duration="15636000" />
-      <workItem from="1525016937202" duration="20699000" />
+      <workItem from="1525016937202" duration="20733000" />
+      <workItem from="1525074507257" duration="885000" />
+      <workItem from="1525078426612" duration="408000" />
+      <workItem from="1525100604305" duration="6357000" />
+      <workItem from="1525118885588" duration="9526000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -505,11 +512,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524951694380</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="52. N-Queens II">
+      <created>1525042978244</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1525042978244</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168004000" />
+    <option name="totallyTimeSpent" value="185214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,7 +535,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="566" y="21" width="1478" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -532,12 +546,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61376894" sideWeight="0.5028129" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33838972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.272203" sideWeight="0.49718705" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3325554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18091168" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29227322" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -607,50 +621,16 @@
     <MESSAGE value="686. Repeated String Match" />
     <MESSAGE value="375. Guess Number Higher or Lower II" />
     <MESSAGE value="38. Count and Say" />
-    <option name="LAST_COMMIT_MESSAGE" value="38. Count and Say" />
+    <MESSAGE value="52. N-Queens II" />
+    <option name="LAST_COMMIT_MESSAGE" value="52. N-Queens II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="71" />
+      <option name="time" value="84" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/findMedianSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="92" column="27" lean-forward="false" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="614" column="0" lean-forward="false" selection-start-line="614" selection-start-column="0" selection-end-line="614" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -921,9 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="36" />
-          <folding>
-            <element signature="method#getMoneyAmount#0;class#getMoneyAmount#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,7 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="6951" column="46" lean-forward="true" selection-start-line="6951" selection-start-column="46" selection-end-line="6951" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,13 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="2981" column="4" lean-forward="true" selection-start-line="2981" selection-start-column="4" selection-end-line="2981" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;method#valueOf#1;class#String#0" expanded="true" />
-            <element signature="e#117950#117951#0" expanded="true" />
-            <element signature="e#117989#117990#0" expanded="true" />
-            <element signature="e#120027#120028#0" expanded="true" />
-            <element signature="e#120066#120067#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,9 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-          <folding>
-            <element signature="method#compress2#0;class#Compress#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,48 +929,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#countAndSay#0;class#CountAndSay#0" expanded="true" />
-            <element signature="method#recurrence2#0;class#CountAndSay#0" expanded="true" />
-            <element signature="method#countAndSay4#0;class#CountAndSay#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TotalNQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RolveNQueens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
+        <state relative-caret-position="19">
+          <caret line="82" column="5" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxProfit2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxProfit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxProfit3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#dfs#0;class#RolveNQueens#0" expanded="true" />
-            <element signature="method#isvalid#0;class#RolveNQueens#0" expanded="true" />
-            <element signature="method#solveNQueens#0;class#RolveNQueens#0" expanded="true" />
-            <element signature="method#dfs2#0;class#RolveNQueens#0" expanded="true" />
-            <element signature="method#canPut#0;class#RolveNQueens#0" expanded="true" />
-            <element signature="method#dfs#1;class#RolveNQueens#0" expanded="true" />
+            <element signature="method#maxProfit3#0;class#MaxProfit3#0" expanded="true" />
+            <element signature="method#maxProfit2#0;class#MaxProfit3#0" expanded="true" />
+            <element signature="method#maxProfit#1;class#MaxProfit3#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="63" lean-forward="false" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        <state relative-caret-position="418">
+          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TotalNQueens.java">
+    <entry file="file://$PROJECT_DIR$/src/MaxProfit4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="590">
+          <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#dfs#0;class#TotalNQueens#0" expanded="true" />
-            <element signature="method#isValid#0;class#TotalNQueens#0" expanded="true" />
-            <element signature="method#totalNQueens#0;class#TotalNQueens#0" expanded="true" />
+            <element signature="method#maxProfit3#0;class#MaxProfit4#0" expanded="true" />
           </folding>
         </state>
       </provider>

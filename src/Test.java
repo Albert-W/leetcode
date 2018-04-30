@@ -11,6 +11,16 @@ public class Test {
 //
 //            }
 //        }
-        System.out.println(new TotalNQueens().totalNQueens(4));
+//        System.out.println(new TotalNQueens().totalNQueens(4));
+        //53. Maximum Subarray
+//        int[] i=new int[]{-2,1,-3,4,-1,2,1,-5,4};
+//        System.out.println(new MaxSubArray().maxSubArray(i));
+        //123. Best Time to Buy and Sell Stock III
+//        int[] i=new int[]{3,3,5,0,0,3,1,4};
+//        System.out.println(new MaxProfit3().maxProfit(i));
+        //188. Best Time to Buy and Sell Stock IV
+        int[] i=new int[]{2,6,8,7,8,7,9,4,1,2,4,5,8};
+        System.out.println(new MaxProfit4().maxProfit(3,i));
     }
+
 }
