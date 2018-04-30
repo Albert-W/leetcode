@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /*
 188. Best Time to Buy and Sell Stock IV
 Say you have an array for which the ith element is the price of a given stock on day i.
@@ -21,6 +23,7 @@ Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-
  */
 public class MaxProfit4 {
     //Greedy Method;247->4ms;
+    //通过大量的记录2*K和更新prices.length，来保证贪心策略；
     public int maxProfit(int k, int[] prices) {
         // Memory Limit Exceeded, due to k are incredible big;
         if(k==0||prices.length==0)return 0;
@@ -40,41 +43,26 @@ public class MaxProfit4 {
         //so the method can drop some of middle profits due to the limit of k;
         int cost[]= new int[k];
         int profit[]= new int[k];
-        for(int i=0;i<k;i++)cost[i]=Integer.MAX_VALUE;
-
+        //for(int i=0;i<k;i++)
+            //cost[i]=Integer.MAX_VALUE;
+        Arrays.fill(cost,Integer.MAX_VALUE);
         for(int c:prices){
+            //二维表:cost[k],profit[k]，列为交易次数；
+            //根据每天的价格，逐次更新k个交易，替换掉profit较低的交易；
+            //cost越低越好，profit越高越好。
+
             if(cost[0]>c)cost[0]=c;
+            //如果成本更新，导致
             if(profit[0]<c-cost[0])profit[0]=c-cost[0];
 
             for(int i=1;i<k;i++){
+                //如果当天的成本更低，更新此次交易的成本
                 if(cost[i]>c-profit[i-1])cost[i]=c-profit[i-1];
+                //如果当天可赚的利润更高，更新此次的利润
                 if(profit[i]<c-cost[i])profit[i]=c-cost[i];
             }
         }
         return profit[k-1];
     }
 
-    public int maxProfit3(int[] prices) {
-        //根据每天的价格同时优化二次买卖操作。
-        int firstCost=Integer.MAX_VALUE;
-        int firstProfit=0;
-        int secondCost=Integer.MAX_VALUE;
-        int secondProfit=0;
-        for(int c:prices){
-            //第一次的成本越小越更新，收益越高越更新；
-            if(firstCost>c)firstCost=c; //firstCost越小越好
-            //下一句不会与上一句同时发生，如果同时发生profit=0;
-            if(firstProfit<c-firstCost)firstProfit=c-firstCost;//firstProfit越大越好
-
-            //第二次买的成本，在当前价上，减去firstProfit。
-            //如果同一天更新第二轮，结果相当于没有更新；
-            if(secondCost>c-firstProfit)secondCost=c-firstProfit;
-            //下一句不会与上一句同时发生，如果同时发生profit=firstProfit;
-            if(secondProfit<c-secondCost)secondProfit=c-secondCost;
-
-
-        }
-        return secondProfit;
-
-    }
 }
