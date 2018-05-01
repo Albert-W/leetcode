@@ -27,7 +27,9 @@ public class ATest {
 //        System.out.println(new Multiply().multiply("123",
 //            "456")); //56088;
         //415. Add Strings
-        System.out.println(new AddStrings().addStrings("9","9"));
+//        System.out.println(new AddStrings().addStrings("9","9"));
+        //69. Sqrt(x)
+        System.out.println(new MySqrt().mySqrt(1));
     }
 
 }
