@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Test {
+public class ATest {
     public static void main(String[] args) {
         //System.out.println(new CountAndSay().countAndSay(4));
         //System.out.println(new RolveNQueens().solveNQueens(4));
@@ -24,8 +24,10 @@ public class Test {
         //67. Add Binary
 //        System.out.println(new AddBinary().addBinary("100","110010"));
         //43. Multiply Strings
-        System.out.println(new Multiply().multiply("123",
-            "456")); //56088;
+//        System.out.println(new Multiply().multiply("123",
+//            "456")); //56088;
+        //415. Add Strings
+        System.out.println(new AddStrings().addStrings("9","9"));
     }
 
 }
