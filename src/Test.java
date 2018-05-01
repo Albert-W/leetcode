@@ -19,8 +19,10 @@ public class Test {
 //        int[] i=new int[]{3,3,5,0,0,3,1,4};
 //        System.out.println(new MaxProfit3().maxProfit(i));
         //188. Best Time to Buy and Sell Stock IV
-        int[] i=new int[]{2,6,8,7,8,7,9,4,1,2,4,5,8};
-        System.out.println(new MaxProfit4().maxProfit(3,i));
+//        int[] i=new int[]{2,6,8,7,8,7,9,4,1,2,4,5,8};
+//        System.out.println(new MaxProfit4().maxProfit(3,i));
+        //67. Add Binary
+        System.out.println(new AddBinary().addBinary("100","110010"));
     }
 
 }
