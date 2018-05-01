@@ -22,7 +22,10 @@ public class Test {
 //        int[] i=new int[]{2,6,8,7,8,7,9,4,1,2,4,5,8};
 //        System.out.println(new MaxProfit4().maxProfit(3,i));
         //67. Add Binary
-        System.out.println(new AddBinary().addBinary("100","110010"));
+//        System.out.println(new AddBinary().addBinary("100","110010"));
+        //43. Multiply Strings
+        System.out.println(new Multiply().multiply("123",
+            "456")); //56088;
     }
 
 }
