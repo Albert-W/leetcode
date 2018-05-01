@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MySqrt.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -328,7 +326,7 @@
       <workItem from="1525078426612" duration="408000" />
       <workItem from="1525100604305" duration="6357000" />
       <workItem from="1525118885588" duration="11169000" />
-      <workItem from="1525162009526" duration="18242000" />
+      <workItem from="1525162009526" duration="18271000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -547,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525183077334</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="69. Sqrt(x)">
+      <created>1525185585123</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1525185585123</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205099000" />
+    <option name="totallyTimeSpent" value="205128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -629,7 +634,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3.add LongestSubstring" />
     <MESSAGE value="2.add findMedianSortedArrays.java" />
     <MESSAGE value="10. isMatch" />
     <MESSAGE value="13.Roman to Integer" />
@@ -654,7 +658,8 @@
     <MESSAGE value="67. Add Binary" />
     <MESSAGE value="43. Multiply Strings" />
     <MESSAGE value="415. Add Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="415. Add Strings" />
+    <MESSAGE value="69. Sqrt(x)" />
+    <option name="LAST_COMMIT_MESSAGE" value="69. Sqrt(x)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
