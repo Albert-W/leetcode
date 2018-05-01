@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IsPerfectSquare.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JudgeSquareSum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
     </list>
@@ -38,13 +37,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsPerfectSquare.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IsPerfectSquare.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IsPerfectSquare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="285">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="method#isPerfectSquare#0;class#IsPerfectSquare#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JudgeSquareSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JudgeSquareSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="26" />
+              <folding>
+                <element signature="method#judgeSquareSum#0;class#JudgeSquareSum#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,8 +64,8 @@
       <file leaf-file-name="ATest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="33" column="67" lean-forward="false" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+            <state relative-caret-position="384">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sum_01.java" />
         <option value="$PROJECT_DIR$/src/TowSum.java" />
         <option value="$PROJECT_DIR$/src/add_two_numbers.java" />
         <option value="$PROJECT_DIR$/src/LongestCommonPrefix.java" />
@@ -140,8 +150,9 @@
         <option value="$PROJECT_DIR$/src/AddStrings.java" />
         <option value="$PROJECT_DIR$/src/MySqrt.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/ATest.java" />
         <option value="$PROJECT_DIR$/src/IsPerfectSquare.java" />
+        <option value="$PROJECT_DIR$/src/ATest.java" />
+        <option value="$PROJECT_DIR$/src/JudgeSquareSum.java" />
       </list>
     </option>
   </component>
@@ -340,7 +351,7 @@
       <workItem from="1525078426612" duration="408000" />
       <workItem from="1525100604305" duration="6357000" />
       <workItem from="1525118885588" duration="11169000" />
-      <workItem from="1525162009526" duration="19395000" />
+      <workItem from="1525162009526" duration="20344000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -573,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525185845976</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="367. Valid Perfect Square">
+      <created>1525186727511</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1525186727511</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206252000" />
+    <option name="totallyTimeSpent" value="207201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,7 +673,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2.add findMedianSortedArrays.java" />
     <MESSAGE value="10. isMatch" />
     <MESSAGE value="13.Roman to Integer" />
     <MESSAGE value="14. Longest Common Prefix" />
@@ -680,7 +697,8 @@
     <MESSAGE value="43. Multiply Strings" />
     <MESSAGE value="415. Add Strings" />
     <MESSAGE value="69. Sqrt(x)" />
-    <option name="LAST_COMMIT_MESSAGE" value="69. Sqrt(x)" />
+    <MESSAGE value="367. Valid Perfect Square" />
+    <option name="LAST_COMMIT_MESSAGE" value="367. Valid Perfect Square" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -704,18 +722,11 @@
           <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="100" />
+      <option name="time" value="101" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ThreeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="104" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TowSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -1088,20 +1099,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IsPerfectSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="method#isPerfectSquare#0;class#IsPerfectSquare#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="33" column="67" lean-forward="false" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+        <state relative-caret-position="384">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IsPerfectSquare.java">
+    <entry file="file://$PROJECT_DIR$/src/JudgeSquareSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="26" />
           <folding>
-            <element signature="method#isPerfectSquare#0;class#IsPerfectSquare#0" expanded="true" />
+            <element signature="method#judgeSquareSum#0;class#JudgeSquareSum#0" expanded="true" />
           </folding>
         </state>
       </provider>

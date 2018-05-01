@@ -31,7 +31,13 @@ public class ATest {
         //69. Sqrt(x)
 //        System.out.println(new MySqrt().mySqrt(5));
         //367. Valid Perfect Square
-        System.out.println(new IsPerfectSquare().isPerfectSquare(10));
+//        System.out.println(new IsPerfectSquare().isPerfectSquare(10));
+        //633. Sum of Square Numbers
+        System.out.println(new JudgeSquareSum().judgeSquareSum(1000));
+
+
+
+
     }
 
 
