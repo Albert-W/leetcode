@@ -29,7 +29,10 @@ public class ATest {
         //415. Add Strings
 //        System.out.println(new AddStrings().addStrings("9","9"));
         //69. Sqrt(x)
-        System.out.println(new MySqrt().mySqrt(1));
+//        System.out.println(new MySqrt().mySqrt(5));
+        //367. Valid Perfect Square
+        System.out.println(new IsPerfectSquare().isPerfectSquare(10));
     }
+
 
 }
