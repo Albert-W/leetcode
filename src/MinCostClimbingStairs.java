@@ -18,8 +18,29 @@ Every cost[i] will be an integer in the range [0, 999].
  */
 public class MinCostClimbingStairs {
     //iteration
-    //由于存在两种状态（站上，跳过），决定创建辅助数组
     public int minCostClimbingStairs(int[] cost) {
+        int n=cost.length;
+        if(n==0)
+            return 0;
+        if(n==1)
+            return 0;
+        if(n==2)
+            return Math.min(cost[0],cost[1]);
+        int a=cost[0];
+        int b=cost[1];
+        int c=0;
+        for(int i=2;i<n;i++){
+            //站在assist[i]上的最小代价
+            c=Math.min(b,a)+cost[i];
+            a=b;
+            b=c;
+        }
+
+        return Math.min(a,b);
+
+    }
+    //由于存在两种状态（站上，跳过），决定创建辅助数组保存站上的状态，推演跳出的状态。
+    public int minCostClimbingStairs2(int[] cost) {
         int n=cost.length;
         int[] assist=new int[n];
         if(n==0)
