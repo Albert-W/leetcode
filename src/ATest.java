@@ -34,8 +34,9 @@ public class ATest {
 //        System.out.println(new IsPerfectSquare().isPerfectSquare(10));
         //633. Sum of Square Numbers
 //        System.out.println(new JudgeSquareSum().judgeSquareSum(1000));
-        System.out.println(-3/2);
-
+//        System.out.println(-3/2);
+//      70. Climbing Stairs
+        System.out.println(new ClimbStairs().climbStairs(3));
 
 
 
