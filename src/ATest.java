@@ -36,8 +36,10 @@ public class ATest {
 //        System.out.println(new JudgeSquareSum().judgeSquareSum(1000));
 //        System.out.println(-3/2);
 //      70. Climbing Stairs
-        System.out.println(new ClimbStairs().climbStairs(3));
-
+//        System.out.println(new ClimbStairs().climbStairs(3));
+//746. Min Cost Climbing Stairs
+        int[] i= new int[]{0,0, 1, 1};
+        System.out.println(new MinCostClimbingStairs().minCostClimbingStairs(i));
 
 
     }

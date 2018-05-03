@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ClimbStairs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MinCostClimbingStairs.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
     </list>
@@ -28,21 +28,34 @@
       <file leaf-file-name="ATest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+            <state relative-caret-position="532">
+              <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClimbStairs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClimbStairs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClimbStairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="285">
+              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="15" />
               <folding>
+                <element signature="e#0#1058#0" expanded="true" />
                 <element signature="method#climbStairs#0;class#ClimbStairs#0" expanded="true" />
                 <element signature="method#climbStairs2#0;class#ClimbStairs#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinCostClimbingStairs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MinCostClimbingStairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="29" />
+              <folding>
+                <element signature="method#minCostClimbingStairs#0;class#MinCostClimbingStairs#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/ThreeSumClosest.java" />
         <option value="$PROJECT_DIR$/src/FourSum.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
@@ -128,8 +140,9 @@
         <option value="$PROJECT_DIR$/src/JudgeSquareSum.java" />
         <option value="$PROJECT_DIR$/src/MyPow.java" />
         <option value="$PROJECT_DIR$/src/SuperPow.java" />
-        <option value="$PROJECT_DIR$/src/ATest.java" />
         <option value="$PROJECT_DIR$/src/ClimbStairs.java" />
+        <option value="$PROJECT_DIR$/src/ATest.java" />
+        <option value="$PROJECT_DIR$/src/MinCostClimbingStairs.java" />
       </list>
     </option>
   </component>
@@ -140,7 +153,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="612" />
+    <option name="x" value="513" />
+    <option name="y" value="14" />
     <option name="width" value="1316" />
     <option name="height" value="1050" />
   </component>
@@ -330,7 +344,7 @@
       <workItem from="1525162009526" duration="20434000" />
       <workItem from="1525210920486" duration="1403000" />
       <workItem from="1525249072567" duration="3045000" />
-      <workItem from="1525359073119" duration="712000" />
+      <workItem from="1525359073119" duration="3856000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -591,11 +605,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525252105197</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="70. Climbing Stairs">
+      <created>1525359793210</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1525359793210</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212451000" />
+    <option name="totallyTimeSpent" value="215595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,7 +628,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="612" y="0" width="1316" height="1050" extended-state="0" />
+    <frame x="513" y="14" width="1316" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -616,15 +637,16 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61376894" sideWeight="0.5028129" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32788798" sideWeight="0.5048309" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32788798" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32788798" sideWeight="0.49516907" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27187866" sideWeight="0.49718705" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3325554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2447665" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -637,7 +659,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979387" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,7 +694,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="15. ThreeSum" />
     <MESSAGE value="17. Letter Combinations" />
     <MESSAGE value="20. Valid Parentheses" />
     <MESSAGE value="21. Merge Two Sorted Lists." />
@@ -698,7 +718,8 @@
     <MESSAGE value="633. Sum of Square Numbers" />
     <MESSAGE value="50. Pow(x, n)" />
     <MESSAGE value="372. Super Pow" />
-    <option name="LAST_COMMIT_MESSAGE" value="372. Super Pow" />
+    <MESSAGE value="70. Climbing Stairs" />
+    <option name="LAST_COMMIT_MESSAGE" value="70. Climbing Stairs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -722,18 +743,11 @@
           <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="101" />
+      <option name="time" value="102" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/isValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RemoveNthFromEnd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -969,6 +983,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,21 +1099,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClimbStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#1058#0" expanded="true" />
+            <element signature="method#climbStairs#0;class#ClimbStairs#0" expanded="true" />
+            <element signature="method#climbStairs2#0;class#ClimbStairs#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        <state relative-caret-position="532">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClimbStairs.java">
+    <entry file="file://$PROJECT_DIR$/src/MinCostClimbingStairs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="29" />
           <folding>
-            <element signature="method#climbStairs#0;class#ClimbStairs#0" expanded="true" />
-            <element signature="method#climbStairs2#0;class#ClimbStairs#0" expanded="true" />
+            <element signature="method#minCostClimbingStairs#0;class#MinCostClimbingStairs#0" expanded="true" />
           </folding>
         </state>
       </provider>
