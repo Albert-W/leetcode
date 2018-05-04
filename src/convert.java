@@ -10,13 +10,14 @@ Write the code that will take a string and make this conversion given a number o
 
 string convert(string text, int nRows);
 convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
+
  */
 
-//sublime....     2324sdfas
 //secondtime
 //third time
 //fourth time
 //fifth time
+//update
 
 public class Convert {
     /**

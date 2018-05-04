@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
+    <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="6. ZigZag Conversion">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LongestSubstring.java" afterPath="$PROJECT_DIR$/src/LengthOfLongestSubstring.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,15 +47,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LengthOfLongestSubstring.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LengthOfLongestSubstring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LengthOfLongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="61" column="6" lean-forward="false" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+            <state relative-caret-position="361">
+              <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#lengthOfLongestSubstring_1#0;class#LengthOfLongestSubstring#0" expanded="true" />
-                <element signature="method#lengthOfLongestSubstring#0;class#LengthOfLongestSubstring#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindMedianSortedArrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FindMedianSortedArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="method#findMedianSortedArrays#0;class#FindMedianSortedArrays#0" expanded="true" />
+                <element signature="method#binarysearch#0;class#FindMedianSortedArrays#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestPalindrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="method#longestPalindrome#0;class#LongestPalindrome#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Convert.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Convert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
+              <folding>
+                <element signature="docComment;method#convert#0;class#Convert#0" expanded="true" />
+                <element signature="method#convert#0;class#Convert#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/RemoveNthFromEnd.java" />
-        <option value="$PROJECT_DIR$/src/MergeTwoLists.java" />
         <option value="$PROJECT_DIR$/src/isValid.java" />
         <option value="$PROJECT_DIR$/src/GenerateParenthesis.java" />
         <option value="$PROJECT_DIR$/src/MergeKLists.java" />
@@ -112,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/Rob.java" />
         <option value="$PROJECT_DIR$/src/GetMoneyAmount.java" />
         <option value="$PROJECT_DIR$/src/Add_two_numbers.java" />
-        <option value="$PROJECT_DIR$/src/Convert.java" />
         <option value="$PROJECT_DIR$/src/FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/src/GuessNumber.java" />
         <option value="$PROJECT_DIR$/src/Compress.java" />
@@ -144,6 +177,9 @@
         <option value="$PROJECT_DIR$/src/TowSum.java" />
         <option value="$PROJECT_DIR$/src/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/LengthOfLongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/FindMedianSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/Convert.java" />
       </list>
     </option>
   </component>
@@ -154,8 +190,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="622" />
-    <option name="y" value="35" />
+    <option name="x" value="431" />
+    <option name="y" value="1" />
     <option name="width" value="1377" />
     <option name="height" value="1050" />
   </component>
@@ -346,7 +382,7 @@
       <workItem from="1525210920486" duration="1403000" />
       <workItem from="1525249072567" duration="3045000" />
       <workItem from="1525359073119" duration="4394000" />
-      <workItem from="1525428661716" duration="1300000" />
+      <workItem from="1525428661716" duration="1772000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -649,11 +685,32 @@
       <option name="project" value="LOCAL" />
       <updated>1525429629164</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="3. Longest Substring Without Repeating Characters">
+      <created>1525429969196</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1525429969196</updated>
+    </task>
+    <task id="LOCAL-00045" summary="4. Median of Two Sorted Arrays">
+      <created>1525430110786</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1525430110786</updated>
+    </task>
+    <task id="LOCAL-00046" summary="4. Median of Two Sorted Arrays">
+      <created>1525430184401</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1525430184401</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217433000" />
+    <option name="totallyTimeSpent" value="217905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -665,7 +722,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="622" y="35" width="1377" height="1050" extended-state="0" />
+    <frame x="431" y="1" width="1377" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -731,8 +788,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="23. Merge k Sorted Lists" />
-    <MESSAGE value="24. Swap Nodes in Pairs" />
     <MESSAGE value="25. Reverse Nodes in k-Group" />
     <MESSAGE value="237. Delete Node in a Linked List" />
     <MESSAGE value="459. Repeated Substring Pattern" />
@@ -756,7 +811,9 @@
     <MESSAGE value="83. Remove Duplicates from Sorted List" />
     <MESSAGE value="1. Two Sum" />
     <MESSAGE value="2. Add Two Numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. Add Two Numbers" />
+    <MESSAGE value="3. Longest Substring Without Repeating Characters" />
+    <MESSAGE value="4. Median of Two Sorted Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. Median of Two Sorted Arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -785,20 +842,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ReverseKGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwapPairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MergeKLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -908,13 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Convert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1092,10 +1128,10 @@
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
           <folding>
-            <element signature="method#superPow#0;class#SuperPow#0" expanded="true" />
-            <element signature="method#pow#0;class#SuperPow#0" expanded="true" />
-            <element signature="method#superPow2#0;class#SuperPow#0" expanded="true" />
-            <element signature="method#pow2#0;class#SuperPow#0" expanded="true" />
+            <element signature="method#superPow#0;class#SuperPow#0" expanded="false" />
+            <element signature="method#pow#0;class#SuperPow#0" expanded="false" />
+            <element signature="method#superPow2#0;class#SuperPow#0" expanded="false" />
+            <element signature="method#pow2#0;class#SuperPow#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1113,14 +1149,14 @@
         <state relative-caret-position="380">
           <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#twoSum#0;class#TowSum#0" expanded="true" />
-            <element signature="e#741#759#0" expanded="true" />
-            <element signature="method#twoSum3#0;class#TowSum#0" expanded="true" />
-            <element signature="method#compare#0;class#1717:2314" expanded="true" />
-            <element signature="docComment;class#mycom#0;class#TowSum#0" expanded="true" />
-            <element signature="docComment;method#sort#1;class#TowSum#0" expanded="true" />
-            <element signature="method#twoSum2#0;class#TowSum#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#twoSum#0;class#TowSum#0" expanded="false" />
+            <element signature="e#741#759#0" expanded="false" />
+            <element signature="method#twoSum3#0;class#TowSum#0" expanded="false" />
+            <element signature="method#compare#0;class#1717:2314" expanded="false" />
+            <element signature="docComment;class#mycom#0;class#TowSum#0" expanded="false" />
+            <element signature="docComment;method#sort#1;class#TowSum#0" expanded="false" />
+            <element signature="method#twoSum2#0;class#TowSum#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1138,7 +1174,7 @@
         <state relative-caret-position="912">
           <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
           <folding>
-            <element signature="method#minCostClimbingStairs#0;class#MinCostClimbingStairs#0" expanded="true" />
+            <element signature="method#minCostClimbingStairs#0;class#MinCostClimbingStairs#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1149,8 +1185,8 @@
           <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="15" />
           <folding>
             <element signature="e#0#1058#0" expanded="true" />
-            <element signature="method#climbStairs#0;class#ClimbStairs#0" expanded="true" />
-            <element signature="method#climbStairs2#0;class#ClimbStairs#0" expanded="true" />
+            <element signature="method#climbStairs#0;class#ClimbStairs#0" expanded="false" />
+            <element signature="method#climbStairs2#0;class#ClimbStairs#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1177,12 +1213,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LengthOfLongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="61" column="6" lean-forward="false" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        <state relative-caret-position="361">
+          <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#lengthOfLongestSubstring_1#0;class#LengthOfLongestSubstring#0" expanded="true" />
-            <element signature="method#lengthOfLongestSubstring#0;class#LengthOfLongestSubstring#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindMedianSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="method#findMedianSortedArrays#0;class#FindMedianSortedArrays#0" expanded="true" />
+            <element signature="method#binarysearch#0;class#FindMedianSortedArrays#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="method#longestPalindrome#0;class#LongestPalindrome#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <element signature="docComment;method#convert#0;class#Convert#0" expanded="true" />
+            <element signature="method#convert#0;class#Convert#0" expanded="true" />
           </folding>
         </state>
       </provider>
