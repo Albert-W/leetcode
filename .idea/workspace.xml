@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IsPalindrome.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/isPalindrome.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/isMatch.java" afterPath="$PROJECT_DIR$/src/IsMatch.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,14 +120,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsPalindrome.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IsPalindrome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IsPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="342">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="method#isPalindrome#0;class#IsPalindrome#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsMatch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IsMatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SwapPairs.java" />
         <option value="$PROJECT_DIR$/src/ReverseKGroup.java" />
         <option value="$PROJECT_DIR$/src/RemoveDuplicates.java" />
         <option value="$PROJECT_DIR$/src/RemoveElement.java" />
@@ -215,6 +223,7 @@
         <option value="$PROJECT_DIR$/src/Reverse.java" />
         <option value="$PROJECT_DIR$/src/myAtoi.java" />
         <option value="$PROJECT_DIR$/src/IsPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/IsMatch.java" />
       </list>
     </option>
   </component>
@@ -417,7 +426,7 @@
       <workItem from="1525210920486" duration="1403000" />
       <workItem from="1525249072567" duration="3045000" />
       <workItem from="1525359073119" duration="4394000" />
-      <workItem from="1525428661716" duration="2327000" />
+      <workItem from="1525428661716" duration="2420000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -759,7 +768,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218460000" />
+    <option name="totallyTimeSpent" value="218553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -891,13 +900,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RemoveDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RemoveElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1301,11 +1303,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IsPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="342">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="method#isPalindrome#0;class#IsPalindrome#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IsMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

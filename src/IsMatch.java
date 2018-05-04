@@ -1,4 +1,6 @@
 /*
+10. Regular Expression Matching
+Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*'.
 '.' Matches any single character.
 '*' Matches zero or more of the preceding element.
 
@@ -21,7 +23,7 @@ isMatch("aab", "c*a*b") → true
 It has to use Dynamic Programming.
 It is a complete match. both sides have to the same.
  */
-public class isMatch {
+public class IsMatch {
     //76ms;
     public boolean isMatch2(String s, String p) {
         return isMatch(s,0,p,0);
