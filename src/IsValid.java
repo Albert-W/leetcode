@@ -7,7 +7,38 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
 
 import java.util.*;
 
-public class isValid {
+public class IsValid {
+    //
+    public boolean isValid(String s) {
+        Stack<Character> stack = new Stack<>();
+        for(int i =0;i<s.length();i++){
+            if(s.charAt(i)=='('||s.charAt(i)=='{'||s.charAt(i)=='[')
+                stack.push(s.charAt(i));
+            if(s.charAt(i)==')' ){
+                if(stack.empty()||stack.peek()!='(')
+                    return false;
+                else
+                    stack.pop();
+            }
+            if(s.charAt(i)=='}' ){
+                if(stack.empty()||stack.peek()!='{')
+                    return false;
+                else
+                    stack.pop();
+            }
+            if(s.charAt(i)==']' ){
+                if(stack.empty()||stack.peek()!='[')
+                    return false;
+                else
+                    stack.pop();
+            }
+        }
+        if(stack.empty())
+            return true;
+        else return false;
+
+    }
+
     //this is not correct.
     public boolean isValid2(String s) {
         HashSet<Character> set = new HashSet<>();
@@ -42,49 +73,20 @@ public class isValid {
         else return false;
 
     }
-    //
-    public boolean isValid4(String s) {
-        Stack<Character> stack = new Stack<>();
-        for(int i =0;i<s.length();i++){
-            if(s.charAt(i)=='('||s.charAt(i)=='{'||s.charAt(i)=='[')
-                stack.push(s.charAt(i));
-            if(s.charAt(i)==')' ){
-                if(stack.empty()||stack.peek()!='(')
-                    return false;
-                else
-                    stack.pop();
-            }
-            if(s.charAt(i)=='}' ){
-                if(stack.empty()||stack.peek()!='{')
-                    return false;
-                else
-                    stack.pop();
-            }
-            if(s.charAt(i)==']' ){
-                if(stack.empty()||stack.peek()!='[')
-                    return false;
-                else
-                    stack.pop();
-            }
-        }
-        if(stack.empty())
-            return true;
-        else return false;
-
-    }
 
 
-    enum parentheses1{
-        ONE('(',1);
-        private Character c;
-        private Integer i;
-        private parentheses1(Character c,Integer i){
-            this.c = c;
-            this.i =i;
-        }
 
-
-    }
+//    enum parentheses1{
+//        ONE('(',1);
+//        private Character c;
+//        private Integer i;
+//        private parentheses1(Character c,Integer i){
+//            this.c = c;
+//            this.i =i;
+//        }
+//
+//
+//    }
 
 
 }
