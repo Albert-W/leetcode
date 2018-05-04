@@ -1,3 +1,4 @@
+import javax.sound.midi.Soundbank;
 import java.util.List;
 
 public class ATest {
@@ -38,9 +39,17 @@ public class ATest {
 //      70. Climbing Stairs
 //        System.out.println(new ClimbStairs().climbStairs(3));
 //746. Min Cost Climbing Stairs
-        int[] i= new int[]{0,0, 1, 1};
-        System.out.println(new MinCostClimbingStairs().minCostClimbingStairs(i));
-
+//        int[] i= new int[]{0,0, 1, 1};
+//        System.out.println(new MinCostClimbingStairs().minCostClimbingStairs(i));
+//82. Remove Duplicates from Sorted List II
+        int[] l=new int[]{1,2,3,3,4,4,5};
+        ListNode n=new ListNode(0);
+        ListNode c=n;
+        for(int i=0;i<l.length;i++){
+            c.next=new ListNode(l[i]);
+            c=c.next;
+        }
+        System.out.println(new DeleteDuplicates2().deleteDuplicates(n.next));
 
     }
 
