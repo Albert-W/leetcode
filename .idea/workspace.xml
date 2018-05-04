@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="6. ZigZag Conversion">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myAtoi.java" afterPath="$PROJECT_DIR$/src/myAtoi.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,15 +86,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Convert.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Convert.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Convert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="399">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
+                <element signature="e#0#1326#0" expanded="true" />
                 <element signature="docComment;method#convert#0;class#Convert#0" expanded="true" />
                 <element signature="method#convert#0;class#Convert#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reverse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Reverse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myAtoi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/myAtoi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/isValid.java" />
-        <option value="$PROJECT_DIR$/src/GenerateParenthesis.java" />
         <option value="$PROJECT_DIR$/src/MergeKLists.java" />
         <option value="$PROJECT_DIR$/src/SwapPairs.java" />
         <option value="$PROJECT_DIR$/src/ReverseKGroup.java" />
@@ -180,6 +200,8 @@
         <option value="$PROJECT_DIR$/src/FindMedianSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/Convert.java" />
+        <option value="$PROJECT_DIR$/src/Reverse.java" />
+        <option value="$PROJECT_DIR$/src/myAtoi.java" />
       </list>
     </option>
   </component>
@@ -190,8 +212,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="431" />
-    <option name="y" value="1" />
+    <option name="x" value="774" />
     <option name="width" value="1377" />
     <option name="height" value="1050" />
   </component>
@@ -382,7 +403,7 @@
       <workItem from="1525210920486" duration="1403000" />
       <workItem from="1525249072567" duration="3045000" />
       <workItem from="1525359073119" duration="4394000" />
-      <workItem from="1525428661716" duration="1772000" />
+      <workItem from="1525428661716" duration="1915000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -706,11 +727,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525430184401</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="7. Reverse Integer">
+      <created>1525430502709</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1525430502709</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217905000" />
+    <option name="totallyTimeSpent" value="218048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,7 +750,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="431" y="1" width="1377" height="1050" extended-state="0" />
+    <frame x="774" y="0" width="1377" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -788,7 +816,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="25. Reverse Nodes in k-Group" />
     <MESSAGE value="237. Delete Node in a Linked List" />
     <MESSAGE value="459. Repeated Substring Pattern" />
     <MESSAGE value="686. Repeated String Match" />
@@ -813,7 +840,8 @@
     <MESSAGE value="2. Add Two Numbers" />
     <MESSAGE value="3. Longest Substring Without Repeating Characters" />
     <MESSAGE value="4. Median of Two Sorted Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. Median of Two Sorted Arrays" />
+    <MESSAGE value="7. Reverse Integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="7. Reverse Integer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -842,20 +870,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MergeKLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoveZeroes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RemoveElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1245,12 +1259,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Convert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="399">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
+            <element signature="e#0#1326#0" expanded="true" />
             <element signature="docComment;method#convert#0;class#Convert#0" expanded="true" />
             <element signature="method#convert#0;class#Convert#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myAtoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
