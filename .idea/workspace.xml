@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DeleteDuplicates2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Merge.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MergeTwoLists.java" afterPath="$PROJECT_DIR$/src/MergeTwoLists.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,13 +36,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Merge.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Merge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Merge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="323">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="method#merge#0;class#Merge#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeTwoLists.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MergeTwoLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="method#mergeTwoLists2#0;class#MergeTwoLists#0" expanded="true" />
+                <element signature="method#mergeTwoLists#0;class#MergeTwoLists#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/MoveZeroes.java" />
         <option value="$PROJECT_DIR$/src/RemoveElements.java" />
         <option value="$PROJECT_DIR$/src/TestNode.java" />
@@ -132,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/ATest.java" />
         <option value="$PROJECT_DIR$/src/DeleteDuplicates2.java" />
         <option value="$PROJECT_DIR$/src/Merge.java" />
+        <option value="$PROJECT_DIR$/src/MergeTwoLists.java" />
       </list>
     </option>
   </component>
@@ -142,8 +153,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
+    <option name="x" value="634" />
+    <option name="width" value="1294" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -333,7 +344,7 @@
       <workItem from="1525210920486" duration="1403000" />
       <workItem from="1525249072567" duration="3045000" />
       <workItem from="1525359073119" duration="4394000" />
-      <workItem from="1525428661716" duration="7326000" />
+      <workItem from="1525428661716" duration="7476000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -671,11 +682,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525430588093</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="88. Merge Sorted Array">
+      <created>1525445466517</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1525445466517</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223459000" />
+    <option name="totallyTimeSpent" value="223609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,7 +705,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1050" extended-state="0" />
+    <frame x="634" y="0" width="1294" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -703,7 +721,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3325554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31707317" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23442623" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -753,7 +771,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="375. Guess Number Higher or Lower II" />
     <MESSAGE value="38. Count and Say" />
     <MESSAGE value="52. N-Queens II" />
     <MESSAGE value="188. Best Time to Buy and Sell Stock IV" />
@@ -778,7 +795,8 @@
     <MESSAGE value="8. String to Integer (atoi)" />
     <MESSAGE value="9. Palindrome Number" />
     <MESSAGE value="82. Remove Duplicates from Sorted List II" />
-    <option name="LAST_COMMIT_MESSAGE" value="82. Remove Duplicates from Sorted List II" />
+    <MESSAGE value="88. Merge Sorted Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="88. Merge Sorted Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -807,13 +825,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="384" column="25" lean-forward="false" selection-start-line="384" selection-start-column="25" selection-end-line="384" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RepeatedSubstringPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1224,10 +1235,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="323">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="method#merge#0;class#Merge#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MergeTwoLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="method#mergeTwoLists2#0;class#MergeTwoLists#0" expanded="true" />
+            <element signature="method#mergeTwoLists#0;class#MergeTwoLists#0" expanded="true" />
           </folding>
         </state>
       </provider>
