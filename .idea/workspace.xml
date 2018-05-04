@@ -55,8 +55,8 @@
       <file leaf-file-name="IsSymmetric.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IsSymmetric.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="646">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="method#isSymmetric#0;class#IsSymmetric#0" expanded="true" />
                 <element signature="method#isMirrorTree#0;class#IsSymmetric#0" expanded="true" />
@@ -348,7 +348,7 @@
       <workItem from="1525210920486" duration="1403000" />
       <workItem from="1525249072567" duration="3045000" />
       <workItem from="1525359073119" duration="4394000" />
-      <workItem from="1525428661716" duration="9628000" />
+      <workItem from="1525428661716" duration="10631000" />
     </task>
     <task id="LOCAL-00005" summary="3.add LongestSubstring">
       <created>1522143159749</created>
@@ -697,7 +697,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225761000" />
+    <option name="totallyTimeSpent" value="226764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1267,8 +1267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IsSymmetric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        <state relative-caret-position="646">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="method#isSymmetric#0;class#IsSymmetric#0" expanded="true" />
             <element signature="method#isMirrorTree#0;class#IsSymmetric#0" expanded="true" />
