@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MergeTwoLists.java" afterPath="$PROJECT_DIR$/src/MergeTwoLists.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MergeKLists.java" afterPath="$PROJECT_DIR$/src/MergeKLists.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,14 +48,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeTwoLists.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MergeTwoLists.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MergeTwoLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
-                <element signature="method#mergeTwoLists2#0;class#MergeTwoLists#0" expanded="true" />
+                <element signature="e#0#1725#0" expanded="true" />
                 <element signature="method#mergeTwoLists#0;class#MergeTwoLists#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeKLists.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MergeKLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="method#mergeKLists#0;class#MergeKLists#0" expanded="true" />
+                <element signature="method#mergeTwoLists#0;class#MergeKLists#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MoveZeroes.java" />
         <option value="$PROJECT_DIR$/src/RemoveElements.java" />
         <option value="$PROJECT_DIR$/src/TestNode.java" />
         <option value="$PROJECT_DIR$/src/DeleteNode.java" />
@@ -143,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/DeleteDuplicates2.java" />
         <option value="$PROJECT_DIR$/src/Merge.java" />
         <option value="$PROJECT_DIR$/src/MergeTwoLists.java" />
+        <option value="$PROJECT_DIR$/src/MergeKLists.java" />
       </list>
     </option>
   </component>
@@ -344,14 +357,7 @@
       <workItem from="1525210920486" duration="1403000" />
       <workItem from="1525249072567" duration="3045000" />
       <workItem from="1525359073119" duration="4394000" />
-      <workItem from="1525428661716" duration="7476000" />
-    </task>
-    <task id="LOCAL-00001" summary="add an O(nlgn) method.">
-      <created>1521643015463</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1521643015463</updated>
+      <workItem from="1525428661716" duration="7559000" />
     </task>
     <task id="LOCAL-00002" summary="2.add two numbers.java">
       <created>1521826040126</created>
@@ -689,11 +695,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525445466517</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="21. Merge Two Sorted Lists">
+      <created>1525445619476</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1525445619476</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223609000" />
+    <option name="totallyTimeSpent" value="223692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -771,7 +784,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="38. Count and Say" />
     <MESSAGE value="52. N-Queens II" />
     <MESSAGE value="188. Best Time to Buy and Sell Stock IV" />
     <MESSAGE value="58. Length of Last Word" />
@@ -796,7 +808,8 @@
     <MESSAGE value="9. Palindrome Number" />
     <MESSAGE value="82. Remove Duplicates from Sorted List II" />
     <MESSAGE value="88. Merge Sorted Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="88. Merge Sorted Array" />
+    <MESSAGE value="21. Merge Two Sorted Lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="21. Merge Two Sorted Lists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,13 +838,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RepeatedSubstringPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1245,11 +1251,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MergeTwoLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <element signature="method#mergeTwoLists2#0;class#MergeTwoLists#0" expanded="true" />
+            <element signature="e#0#1725#0" expanded="true" />
             <element signature="method#mergeTwoLists#0;class#MergeTwoLists#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MergeKLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="method#mergeKLists#0;class#MergeKLists#0" expanded="true" />
+            <element signature="method#mergeTwoLists#0;class#MergeKLists#0" expanded="true" />
           </folding>
         </state>
       </provider>

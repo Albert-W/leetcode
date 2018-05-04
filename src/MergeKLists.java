@@ -14,6 +14,7 @@ Input:
 ]
 Output: 1->1->2->3->4->4->5->6
  */
+
 public class MergeKLists {
     public ListNode mergeKLists(ListNode[] lists) {
         if(lists.length==0)
