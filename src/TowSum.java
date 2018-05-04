@@ -1,9 +1,47 @@
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
+/*
+1. Two Sum
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Example:
+
+Given nums = [2, 7, 11, 15], target = 9,
+
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+ */
 
 public class TowSum {
+    /**
+     * @param nums
+     * @param target
+     * @return
+     * the reason why it has O(n) time. is:
+     * containskey(),get() takes O(1) time.
+     */
     public int[] twoSum(int[] nums, int target) {
+        int []result = new int[2];
+        HashMap<Integer,Integer> hashMap = new HashMap<Integer, Integer>();
+        for(int i=0;i<nums.length;i++){
+            if(hashMap.containsKey(nums[i])){
+                result[0]=hashMap.get(nums[i]);
+                result[1]=i;
+                return result;
+            }else{
+                hashMap.put(target-nums[i],i);
+            }
+
+        }
+        return new int[]{0,0};
+    }
+
+
+    //O(n2);
+    public int[] twoSum3(int[] nums, int target) {
         int[] result= new int[2];
         for(int i=0;i<nums.length ;i++){
             for(int j=i+1;j<nums.length ;j++){
@@ -100,33 +138,11 @@ public class TowSum {
     }
 
 
-    class sum_03 {
-        /**
-         *
-         * @param nums
-         * @param target
-         * @return
-         * the reason why it has O(n) time. is:
-         * containskey(),get() takes O(1) time.
-         */
-        public int[] twoSum(int[] nums, int target) {
-            int []result = new int[2];
-            HashMap<Integer,Integer> hashMap = new HashMap<Integer, Integer>();
-            for(int i=0;i<nums.length;i++){
-                if(hashMap.containsKey(nums[i])){
-                    result[0]=hashMap.get(nums[i]);
-                    result[1]=i;
-                    return result;
-                }else{
-                    hashMap.put(target-nums[i],i);
-                }
-
-            }
-            return new int[]{0,0};
-        }
 
 
-    }
+
+
+
 }
 
 
