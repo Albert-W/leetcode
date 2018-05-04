@@ -19,3 +19,4 @@ bin/gen/
 *.idea/
 *idea*/
 
+.idea/workspace.xml

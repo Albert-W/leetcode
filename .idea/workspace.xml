@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DeleteDuplicates.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -358,7 +357,7 @@
       <workItem from="1525210920486" duration="1403000" />
       <workItem from="1525249072567" duration="3045000" />
       <workItem from="1525359073119" duration="4394000" />
-      <workItem from="1525428661716" duration="368000" />
+      <workItem from="1525428661716" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -640,11 +639,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525366585621</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="83. Remove Duplicates from Sorted List">
+      <created>1525429035696</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1525429035696</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216501000" />
+    <option name="totallyTimeSpent" value="216543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,7 +728,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20. Valid Parentheses" />
     <MESSAGE value="21. Merge Two Sorted Lists." />
     <MESSAGE value="22. Generate Parentheses" />
     <MESSAGE value="23. Merge k Sorted Lists" />
@@ -747,7 +752,8 @@
     <MESSAGE value="372. Super Pow" />
     <MESSAGE value="70. Climbing Stairs" />
     <MESSAGE value="746. Min Cost Climbing Stairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="746. Min Cost Climbing Stairs" />
+    <MESSAGE value="83. Remove Duplicates from Sorted List" />
+    <option name="LAST_COMMIT_MESSAGE" value="83. Remove Duplicates from Sorted List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1004,6 +1010,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
