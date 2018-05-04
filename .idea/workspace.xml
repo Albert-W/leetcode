@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AddTwoNumbers.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/add_two_numbers.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LongestSubstring.java" afterPath="$PROJECT_DIR$/src/LengthOfLongestSubstring.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,13 +36,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="method#addTwoNumbers#0;class#Solution#0;class#AddTwoNumbers#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LengthOfLongestSubstring.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LengthOfLongestSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="61" column="6" lean-forward="false" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#lengthOfLongestSubstring_1#0;class#LengthOfLongestSubstring#0" expanded="true" />
+                <element signature="method#lengthOfLongestSubstring#0;class#LengthOfLongestSubstring#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LetterCombinations.java" />
         <option value="$PROJECT_DIR$/src/RemoveNthFromEnd.java" />
         <option value="$PROJECT_DIR$/src/MergeTwoLists.java" />
         <option value="$PROJECT_DIR$/src/isValid.java" />
@@ -131,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/DeleteDuplicates.java" />
         <option value="$PROJECT_DIR$/src/TowSum.java" />
         <option value="$PROJECT_DIR$/src/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/LengthOfLongestSubstring.java" />
       </list>
     </option>
   </component>
@@ -333,7 +346,7 @@
       <workItem from="1525210920486" duration="1403000" />
       <workItem from="1525249072567" duration="3045000" />
       <workItem from="1525359073119" duration="4394000" />
-      <workItem from="1525428661716" duration="950000" />
+      <workItem from="1525428661716" duration="1300000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -629,11 +642,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525429454358</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="2. Add Two Numbers">
+      <created>1525429629164</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1525429629164</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217083000" />
+    <option name="totallyTimeSpent" value="217433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -711,7 +731,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="22. Generate Parentheses" />
     <MESSAGE value="23. Merge k Sorted Lists" />
     <MESSAGE value="24. Swap Nodes in Pairs" />
     <MESSAGE value="25. Reverse Nodes in k-Group" />
@@ -736,7 +755,8 @@
     <MESSAGE value="746. Min Cost Climbing Stairs" />
     <MESSAGE value="83. Remove Duplicates from Sorted List" />
     <MESSAGE value="1. Two Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Two Sum" />
+    <MESSAGE value="2. Add Two Numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. Add Two Numbers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,13 +785,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MergeTwoLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReverseKGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1154,10 +1167,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="285">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="method#addTwoNumbers#0;class#Solution#0;class#AddTwoNumbers#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LengthOfLongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="61" column="6" lean-forward="false" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#lengthOfLongestSubstring_1#0;class#LengthOfLongestSubstring#0" expanded="true" />
+            <element signature="method#lengthOfLongestSubstring#0;class#LengthOfLongestSubstring#0" expanded="true" />
           </folding>
         </state>
       </provider>
