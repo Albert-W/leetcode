@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="6. ZigZag Conversion">
+    <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IsPalindrome.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/isPalindrome.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myAtoi.java" afterPath="$PROJECT_DIR$/src/myAtoi.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,12 +111,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myAtoi.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myAtoi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/myAtoi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+            <state relative-caret-position="323">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsPalindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IsPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
+              <folding>
+                <element signature="method#isPalindrome#0;class#IsPalindrome#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MergeKLists.java" />
         <option value="$PROJECT_DIR$/src/SwapPairs.java" />
         <option value="$PROJECT_DIR$/src/ReverseKGroup.java" />
         <option value="$PROJECT_DIR$/src/RemoveDuplicates.java" />
@@ -202,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/Convert.java" />
         <option value="$PROJECT_DIR$/src/Reverse.java" />
         <option value="$PROJECT_DIR$/src/myAtoi.java" />
+        <option value="$PROJECT_DIR$/src/IsPalindrome.java" />
       </list>
     </option>
   </component>
@@ -212,7 +225,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="774" />
+    <option name="x" value="486" />
+    <option name="y" value="6" />
     <option name="width" value="1377" />
     <option name="height" value="1050" />
   </component>
@@ -403,7 +417,7 @@
       <workItem from="1525210920486" duration="1403000" />
       <workItem from="1525249072567" duration="3045000" />
       <workItem from="1525359073119" duration="4394000" />
-      <workItem from="1525428661716" duration="1915000" />
+      <workItem from="1525428661716" duration="2327000" />
     </task>
     <task id="LOCAL-00001" summary="add an O(nlgn) method.">
       <created>1521643015463</created>
@@ -734,11 +748,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525430502709</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="8. String to Integer (atoi)">
+      <created>1525430588093</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1525430588093</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218048000" />
+    <option name="totallyTimeSpent" value="218460000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,7 +771,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="774" y="0" width="1377" height="1050" extended-state="0" />
+    <frame x="486" y="6" width="1377" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -816,8 +837,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="237. Delete Node in a Linked List" />
-    <MESSAGE value="459. Repeated Substring Pattern" />
     <MESSAGE value="686. Repeated String Match" />
     <MESSAGE value="375. Guess Number Higher or Lower II" />
     <MESSAGE value="38. Count and Say" />
@@ -841,7 +860,9 @@
     <MESSAGE value="3. Longest Substring Without Repeating Characters" />
     <MESSAGE value="4. Median of Two Sorted Arrays" />
     <MESSAGE value="7. Reverse Integer" />
-    <option name="LAST_COMMIT_MESSAGE" value="7. Reverse Integer" />
+    <MESSAGE value="8. String to Integer (atoi)" />
+    <MESSAGE value="9. Palindrome Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="9. Palindrome Number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -870,13 +891,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RemoveElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RemoveDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -1279,9 +1293,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/myAtoi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="323">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IsPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <element signature="method#isPalindrome#0;class#IsPalindrome#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
