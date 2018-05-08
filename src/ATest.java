@@ -1,5 +1,8 @@
 import javax.sound.midi.Soundbank;
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class ATest {
     public static void main(String[] args) {
@@ -42,14 +45,27 @@ public class ATest {
 //        int[] i= new int[]{0,0, 1, 1};
 //        System.out.println(new MinCostClimbingStairs().minCostClimbingStairs(i));
 //82. Remove Duplicates from Sorted List II
-        int[] l=new int[]{1,2,3,3,4,4,5};
-        ListNode n=new ListNode(0);
-        ListNode c=n;
-        for(int i=0;i<l.length;i++){
-            c.next=new ListNode(l[i]);
-            c=c.next;
-        }
-        System.out.println(new DeleteDuplicates2().deleteDuplicates(n.next));
+//        int[] l=new int[]{1,2,3,3,4,4,5};
+//        ListNode n=new ListNode(0);
+//        ListNode c=n;
+//        for(int i=0;i<l.length;i++){
+//            c.next=new ListNode(l[i]);
+//            c=c.next;
+//        }
+//        System.out.println(new DeleteDuplicates2().deleteDuplicates(n.next));
+//102. Binary Tree Level Order Traversal
+        int[] l=new int[]{3,9,20,Integer.MIN_VALUE,Integer.MIN_VALUE,15,7};
+        TreeNode head = new TreeNode(l[0]);
+        Queue<Integer> q = new LinkedList<>();
+        q.add(null);
+        q.add(null);
+        q.add(3);
+        System.out.println(q.size());//两个null,就size为3；
+        ArrayList<Integer> a = new ArrayList<>();
+        a.add(null);
+        a.add(3);
+        System.out.println(a.size());//size为2；
+
 
     }
 
