@@ -54,17 +54,17 @@ public class ATest {
 //        }
 //        System.out.println(new DeleteDuplicates2().deleteDuplicates(n.next));
 //102. Binary Tree Level Order Traversal
-        int[] l=new int[]{3,9,20,Integer.MIN_VALUE,Integer.MIN_VALUE,15,7};
-        TreeNode head = new TreeNode(l[0]);
-        Queue<Integer> q = new LinkedList<>();
-        q.add(null);
-        q.add(null);
-        q.add(3);
-        System.out.println(q.size());//两个null,就size为3；
-        ArrayList<Integer> a = new ArrayList<>();
-        a.add(null);
-        a.add(3);
-        System.out.println(a.size());//size为2；
+//        int[] l=new int[]{3,9,20,Integer.MIN_VALUE,Integer.MIN_VALUE,15,7};
+//        TreeNode head = new TreeNode(l[0]);
+//        Queue<Integer> q = new LinkedList<>();
+//        q.add(null);
+//        q.add(null);
+//        q.add(3);
+//        System.out.println(q.size());//两个null,就size为3；
+//        ArrayList<Integer> a = new ArrayList<>();
+//        a.add(null);
+//        a.add(3);
+//        System.out.println(a.size());//size为2；
 
 
     }
