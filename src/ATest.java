@@ -71,10 +71,13 @@ public class ATest {
 //        List<List<Integer>>res = new PathSum2().pathSum2(head,22);
 //        System.out.println(res.toString());//toString可以直接输出
 //437. Path Sum III
-        int[] l= new int[]{10,5,-3,3,2,0,11,3,-2,0,1};
+//        int[] l= new int[]{10,5,-3,3,2,0,11,3,-2,0,1};
+//        TreeNode head=new BuildTree().buildTree(l);
+//        System.out.println(new PathSum3().pathSum(head,8));
+//257. Binary Tree Paths
+        int[] l= new int[]{5,4,8,11,0,13,4,7,2,0,0,5,1};
         TreeNode head=new BuildTree().buildTree(l);
-        System.out.println(new PathSum3().pathSum(head,8));
-
+        System.out.println(new BinaryTreePaths().binaryTreePaths(head).toString());
 
 
     }

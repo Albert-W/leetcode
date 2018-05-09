@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="113. Path Sum II">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PathSum3.java" />
+    <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BinaryTreePaths.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
     </list>
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PathSum3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PathSum3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PathSum3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="17" />
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#pathSum#0;class#PathSum3#0" expanded="true" />
@@ -41,11 +41,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BinaryTreePaths.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BinaryTreePaths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#dfs#0;class#BinaryTreePaths#0" expanded="true" />
+                <element signature="method#binaryTreePaths#0;class#BinaryTreePaths#0" expanded="true" />
+                <element signature="method#dfs2#0;class#BinaryTreePaths#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-371">
+              <caret line="2369" column="4" lean-forward="true" selection-start-line="2369" selection-start-column="4" selection-end-line="2369" selection-end-column="4" />
+              <folding>
+                <element signature="docComment;method#split#1;class#String#0" expanded="true" />
+                <element signature="e#94239#94240#0" expanded="true" />
+                <element signature="e#94277#94278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ATest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="75" column="59" lean-forward="false" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+            <state relative-caret-position="260">
+              <caret line="77" column="54" lean-forward="false" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MaxSubArray.java" />
         <option value="$PROJECT_DIR$/src/MaxProfit.java" />
         <option value="$PROJECT_DIR$/src/MaxProfit2.java" />
         <option value="$PROJECT_DIR$/src/MaxProfit3.java" />
@@ -154,8 +182,9 @@
         <option value="$PROJECT_DIR$/src/HasPathSum.java" />
         <option value="$PROJECT_DIR$/src/BuildTree.java" />
         <option value="$PROJECT_DIR$/src/PathSum2.java" />
-        <option value="$PROJECT_DIR$/src/ATest.java" />
         <option value="$PROJECT_DIR$/src/PathSum3.java" />
+        <option value="$PROJECT_DIR$/src/ATest.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTreePaths.java" />
       </list>
     </option>
   </component>
@@ -166,10 +195,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="222" />
-    <option name="y" value="26" />
-    <option name="width" value="1377" />
-    <option name="height" value="1047" />
+    <option name="x" value="967" />
+    <option name="width" value="961" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -362,14 +390,7 @@
       <workItem from="1525774335134" duration="16876000" />
       <workItem from="1525873950036" duration="7960000" />
       <workItem from="1525881918411" duration="4046000" />
-      <workItem from="1525892242476" duration="68000" />
-    </task>
-    <task id="LOCAL-00016" summary="23. Merge k Sorted Lists">
-      <created>1523982686949</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1523982686949</updated>
+      <workItem from="1525892242476" duration="4564000" />
     </task>
     <task id="LOCAL-00017" summary="24. Swap Nodes in Pairs">
       <created>1524159497626</created>
@@ -707,11 +728,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525874791306</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="437. Path Sum III">
+      <created>1525892322759</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1525892322759</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255714000" />
+    <option name="totallyTimeSpent" value="260210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,34 +751,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="222" y="26" width="1377" height="1047" extended-state="0" />
+    <frame x="967" y="0" width="961" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33606556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32788798" sideWeight="0.5048309" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32201406" sideWeight="0.49516907" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32088682" sideWeight="0.49516907" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27187866" sideWeight="0.49718705" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3325554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30775136" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44456762" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42857143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42823803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21828212" sideWeight="0.5117057" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33606556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979387" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -789,7 +817,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="83. Remove Duplicates from Sorted List" />
     <MESSAGE value="1. Two Sum" />
     <MESSAGE value="2. Add Two Numbers" />
     <MESSAGE value="3. Longest Substring Without Repeating Characters" />
@@ -814,7 +841,8 @@
     <MESSAGE value="111. Minimum Depth of Binary Tree" />
     <MESSAGE value="112. Path Sum" />
     <MESSAGE value="113. Path Sum II" />
-    <option name="LAST_COMMIT_MESSAGE" value="113. Path Sum II" />
+    <MESSAGE value="437. Path Sum III" />
+    <option name="LAST_COMMIT_MESSAGE" value="437. Path Sum III" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -843,26 +871,30 @@
           <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinaryTreePaths.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinaryTreePaths.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinaryTreePaths.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="118" />
+      <option name="time" value="121" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="1055" column="36" lean-forward="false" selection-start-line="1055" selection-start-column="26" selection-end-line="1055" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MaxProfit4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1175,6 +1207,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-353">
           <caret line="177" column="7" lean-forward="true" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;method#size#0;class#Collection#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#Collection#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1333,26 +1369,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="75" column="59" lean-forward="false" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PathSum3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="17" />
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#pathSum#0;class#PathSum3#0" expanded="true" />
             <element signature="method#dfs#0;class#PathSum3#0" expanded="true" />
             <element signature="method#pathSum2#0;class#PathSum3#0" expanded="true" />
             <element signature="method#dfs#1;class#PathSum3#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="2369" column="4" lean-forward="true" selection-start-line="2369" selection-start-column="4" selection-end-line="2369" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;method#split#1;class#String#0" expanded="true" />
+            <element signature="e#94239#94240#0" expanded="true" />
+            <element signature="e#94277#94278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="77" column="54" lean-forward="false" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTreePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#dfs#0;class#BinaryTreePaths#0" expanded="true" />
+            <element signature="method#binaryTreePaths#0;class#BinaryTreePaths#0" expanded="true" />
+            <element signature="method#dfs2#0;class#BinaryTreePaths#0" expanded="true" />
           </folding>
         </state>
       </provider>
