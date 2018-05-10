@@ -75,10 +75,11 @@ public class ATest {
 //        TreeNode head=new BuildTree().buildTree(l);
 //        System.out.println(new PathSum3().pathSum(head,8));
 //257. Binary Tree Paths
-        int[] l= new int[]{5,4,8,11,0,13,4,7,2,0,0,5,1};
-        TreeNode head=new BuildTree().buildTree(l);
-        System.out.println(new BinaryTreePaths().binaryTreePaths(head).toString());
-
+//        int[] l= new int[]{5,4,8,11,0,13,4,7,2,0,0,5,1};
+//        TreeNode head=new BuildTree().buildTree(l);
+//        System.out.println(new BinaryTreePaths().binaryTreePaths(head).toString());
+//118. Pascal's Triangle
+        System.out.println(new Generate().c(4,4));
 
     }
 
