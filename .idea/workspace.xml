@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Generate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Generate2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,16 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Generate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Generate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Generate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="95">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#generate#0;class#Generate#0" expanded="true" />
                 <element signature="method#c#0;class#Generate#0" expanded="true" />
                 <element signature="method#generate2#0;class#Generate#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Generate2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Generate2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getRow#0;class#Generate2#0" expanded="true" />
+                <element signature="method#getRow2#0;class#Generate2#0" expanded="true" />
+                <element signature="method#c#0;class#Generate2#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MaxProfit2.java" />
         <option value="$PROJECT_DIR$/src/MaxProfit3.java" />
         <option value="$PROJECT_DIR$/src/MaxProfit4.java" />
         <option value="$PROJECT_DIR$/src/LengthOfLastWord.java" />
@@ -140,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/BinaryTreePaths.java" />
         <option value="$PROJECT_DIR$/src/ATest.java" />
         <option value="$PROJECT_DIR$/src/Generate.java" />
+        <option value="$PROJECT_DIR$/src/Generate2.java" />
       </list>
     </option>
   </component>
@@ -341,14 +355,7 @@
       <workItem from="1525881918411" duration="4046000" />
       <workItem from="1525892242476" duration="5177000" />
       <workItem from="1525943673535" duration="57000" />
-      <workItem from="1525966017150" duration="2280000" />
-    </task>
-    <task id="LOCAL-00018" summary="25. Reverse Nodes in k-Group">
-      <created>1524431907785</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1524431907785</updated>
+      <workItem from="1525966017150" duration="6134000" />
     </task>
     <task id="LOCAL-00019" summary="237. Delete Node in a Linked List">
       <created>1524503774552</created>
@@ -686,11 +693,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525896834436</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="118. Pascal's Triangle">
+      <created>1525968306032</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1525968306034</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263160000" />
+    <option name="totallyTimeSpent" value="267014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -768,7 +782,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2. Add Two Numbers" />
     <MESSAGE value="3. Longest Substring Without Repeating Characters" />
     <MESSAGE value="4. Median of Two Sorted Arrays" />
     <MESSAGE value="7. Reverse Integer" />
@@ -793,7 +806,8 @@
     <MESSAGE value="113. Path Sum II" />
     <MESSAGE value="437. Path Sum III" />
     <MESSAGE value="257. Binary Tree Paths" />
-    <option name="LAST_COMMIT_MESSAGE" value="257. Binary Tree Paths" />
+    <MESSAGE value="118. Pascal's Triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="118. Pascal's Triangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -846,13 +860,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LengthOfLastWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AddBinary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1257,13 +1264,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Generate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="95">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#generate#0;class#Generate#0" expanded="true" />
             <element signature="method#c#0;class#Generate#0" expanded="true" />
             <element signature="method#generate2#0;class#Generate#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Generate2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getRow#0;class#Generate2#0" expanded="true" />
+            <element signature="method#getRow2#0;class#Generate2#0" expanded="true" />
+            <element signature="method#c#0;class#Generate2#0" expanded="true" />
           </folding>
         </state>
       </provider>
