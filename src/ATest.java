@@ -1,9 +1,3 @@
-import javax.sound.midi.Soundbank;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-
 public class ATest {
     public static void main(String[] args) {
         //System.out.println(new CountAndSay().countAndSay(4));
@@ -79,8 +73,10 @@ public class ATest {
 //        TreeNode head=new BuildTree().buildTree(l);
 //        System.out.println(new BinaryTreePaths().binaryTreePaths(head).toString());
 //118. Pascal's Triangle
-        System.out.println(new Generate().c(4,4));
-
+//        System.out.println(new Generate().c(4,4));
+//125. Valid Palindrome
+        System.out.println(new IsPalindromeS().isPalindrome("A man, a plan, a canal: Panama"));
+//        System.out.println(new IsPalindromeS().isPalindrome("p0P"));
     }
 
 
