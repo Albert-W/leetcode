@@ -86,9 +86,9 @@ public class ATest {
 //        int c= a | (a & b);
 //        int d = ( 4 | 3 )^ 1;
 //        int e =( 4 ^ 1 ) | (3 ^ 1 );
-
-
 //        return;
+//693. Binary Number with Alternating Bits
+        System.out.println(new HasAlternatingBits().hasAlternatingBits(12));
 
     }
 
