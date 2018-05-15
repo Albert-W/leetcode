@@ -79,8 +79,16 @@ public class ATest {
 //        System.out.println(new IsPalindromeS().isPalindrome("p0P"));
 //680. Valid Palindrome II
 //        System.out.println(new IsPalindromeS2().validPalindrome("cbbcc"));
-        System.out.println(new IsPalindromeS2().validPalindrome("abac"));
+//        System.out.println(new IsPalindromeS2().validPalindrome("abac"));
+//        System.out.println(0|1^2&3);//3
+//        int a = 423457932;
+//        int b = 3;
+//        int c= a | (a & b);
+//        int d = ( 4 | 3 )^ 1;
+//        int e =( 4 ^ 1 ) | (3 ^ 1 );
 
+
+//        return;
 
     }
 
