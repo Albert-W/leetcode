@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IsPalindromeS2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IsPalindromeS2.java" afterPath="$PROJECT_DIR$/src/IsPalindromeS2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="IsPalindromeS2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IsPalindromeS2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="266">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="method#validPalindrome#0;class#IsPalindromeS2#0" expanded="true" />
                 <element signature="method#validPalindrome#1;class#IsPalindromeS2#0" expanded="true" />
@@ -45,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/ATest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="485">
-              <caret line="81" column="68" lean-forward="true" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
+              <caret line="81" column="68" lean-forward="false" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -138,8 +137,8 @@
         <option value="$PROJECT_DIR$/src/Generate.java" />
         <option value="$PROJECT_DIR$/src/Generate2.java" />
         <option value="$PROJECT_DIR$/src/IsPalindromeS.java" />
-        <option value="$PROJECT_DIR$/src/IsPalindromeS2.java" />
         <option value="$PROJECT_DIR$/src/ATest.java" />
+        <option value="$PROJECT_DIR$/src/IsPalindromeS2.java" />
       </list>
     </option>
   </component>
@@ -344,14 +343,7 @@
       <workItem from="1525943673535" duration="57000" />
       <workItem from="1525966017150" duration="6160000" />
       <workItem from="1526296255964" duration="9461000" />
-      <workItem from="1526376472891" duration="3068000" />
-    </task>
-    <task id="LOCAL-00021" summary="686. Repeated String Match">
-      <created>1524669796594</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1524669796594</updated>
+      <workItem from="1526376472891" duration="3128000" />
     </task>
     <task id="LOCAL-00022" summary="375. Guess Number Higher or Lower II">
       <created>1524908867939</created>
@@ -689,11 +681,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526313830754</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="680. Valid Palindrome II">
+      <created>1526379564165</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1526379564167</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279569000" />
+    <option name="totallyTimeSpent" value="279629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -771,7 +770,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7. Reverse Integer" />
     <MESSAGE value="8. String to Integer (atoi)" />
     <MESSAGE value="9. Palindrome Number" />
     <MESSAGE value="82. Remove Duplicates from Sorted List II" />
@@ -796,7 +794,8 @@
     <MESSAGE value="118. Pascal's Triangle" />
     <MESSAGE value="119. Pascal's Triangle II" />
     <MESSAGE value="125. Valid Palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="125. Valid Palindrome" />
+    <MESSAGE value="680. Valid Palindrome II" />
+    <option name="LAST_COMMIT_MESSAGE" value="680. Valid Palindrome II" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -848,19 +847,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IsPalindromeS2.java</url>
-          <line>78</line>
+          <line>71</line>
           <properties />
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IsPalindromeS2.java</url>
-          <line>52</line>
+          <line>45</line>
           <properties />
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/IsPalindromeS2.java</url>
-          <line>89</line>
+          <line>83</line>
           <properties class="IsPalindromeS2" method="validPalindrome">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1239,15 +1238,15 @@
     <entry file="file://$PROJECT_DIR$/src/ATest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
-          <caret line="81" column="68" lean-forward="true" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
+          <caret line="81" column="68" lean-forward="false" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IsPalindromeS2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="266">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="method#validPalindrome#0;class#IsPalindromeS2#0" expanded="true" />
             <element signature="method#validPalindrome#1;class#IsPalindromeS2#0" expanded="true" />

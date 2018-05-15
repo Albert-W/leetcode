@@ -13,9 +13,6 @@ Note:
 The string will only contain lowercase characters a-z. The maximum length of the string is 50000.
  */
 public class IsPalindromeS2 {
-    //可忽略的次数，即递归的次数
-    int count = 2;//添加static 后再线编译故障，可能因为重复编译；
-
     //当需要遍历时，转化为char[]
     public boolean validPalindrome(String s) {
         char c[] = s.toCharArray();
@@ -40,6 +37,8 @@ public class IsPalindromeS2 {
         return true;
     }
 
+    //可忽略的次数，即递归的次数
+    int count = 2;//添加static 后再线编译故障，可能因为重复编译；
     public boolean validPalindrome3(String s) {
         int i = 0, j = s.length() - 1;
 
