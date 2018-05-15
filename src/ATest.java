@@ -75,8 +75,13 @@ public class ATest {
 //118. Pascal's Triangle
 //        System.out.println(new Generate().c(4,4));
 //125. Valid Palindrome
-        System.out.println(new IsPalindromeS().isPalindrome("A man, a plan, a canal: Panama"));
+//        System.out.println(new IsPalindromeS().isPalindrome("A man, a plan, a canal: Panama"));
 //        System.out.println(new IsPalindromeS().isPalindrome("p0P"));
+//680. Valid Palindrome II
+//        System.out.println(new IsPalindromeS2().validPalindrome("cbbcc"));
+        System.out.println(new IsPalindromeS2().validPalindrome("abac"));
+
+
     }
 
 
