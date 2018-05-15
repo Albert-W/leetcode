@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IsPowerOfThree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IsPowerOfTwo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
     </list>
@@ -40,26 +39,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsPowerOfTwo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IsPowerOfTwo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IsPowerOfTwo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
               <folding>
                 <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
                 <element signature="method#isPowerOfTwo2#0;class#IsPowerOfTwo#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsPowerOfThree.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IsPowerOfThree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IsPowerOfThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
               <folding>
+                <element signature="method#isPowerOfThree#0;class#IsPowerOfThree#0" expanded="true" />
                 <element signature="method#isPowerOfThree4#0;class#IsPowerOfThree#0" expanded="true" />
                 <element signature="method#isPowerOfThree3#0;class#IsPowerOfThree#0" expanded="true" />
                 <element signature="method#isPowerOfThree2#0;class#IsPowerOfThree#0" expanded="true" />
@@ -68,11 +68,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Math.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="715" column="23" lean-forward="false" selection-start-line="715" selection-start-column="23" selection-end-line="715" selection-end-column="23" />
+              <folding>
+                <element signature="docComment;method#round#0;class#Math#0" expanded="true" />
+                <element signature="docComment;method#round#1;class#Math#0" expanded="true" />
+                <element signature="method#round#1;class#Math#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ATest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="94" column="65" lean-forward="false" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
+            <state relative-caret-position="608">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -177,7 +191,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="613" />
+    <option name="x" value="235" />
+    <option name="y" value="21" />
     <option name="width" value="1321" />
     <option name="height" value="1050" />
   </component>
@@ -370,14 +385,7 @@
       <workItem from="1525943673535" duration="57000" />
       <workItem from="1525966017150" duration="6160000" />
       <workItem from="1526296255964" duration="9461000" />
-      <workItem from="1526376472891" duration="21396000" />
-    </task>
-    <task id="LOCAL-00028" summary="66. Plus One">
-      <created>1525164762920</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1525164762920</updated>
+      <workItem from="1526376472891" duration="22239000" />
     </task>
     <task id="LOCAL-00029" summary="67. Add Binary">
       <created>1525168381530</created>
@@ -715,11 +723,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526403989201</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="231. Power of Two">
+      <created>1526405905705</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1526405905705</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297897000" />
+    <option name="totallyTimeSpent" value="298740000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,7 +746,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="613" y="0" width="1321" height="1050" extended-state="0" />
+    <frame x="235" y="21" width="1321" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -797,7 +812,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="23. Merge k Sorted Lists" />
     <MESSAGE value="100. Same Tree" />
     <MESSAGE value="101. Symmetric Tree" />
     <MESSAGE value="20. Valid Parentheses" />
@@ -822,7 +836,8 @@
     <MESSAGE value="191. Number of 1 Bits" />
     <MESSAGE value="461. Hamming Distance" />
     <MESSAGE value="477. Total Hamming Distance" />
-    <option name="LAST_COMMIT_MESSAGE" value="477. Total Hamming Distance" />
+    <MESSAGE value="231. Power of Two" />
+    <option name="LAST_COMMIT_MESSAGE" value="231. Power of Two" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -886,9 +901,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IsPowerOfThree.java</url>
-          <line>34</line>
+          <line>37</line>
           <properties />
           <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/IsPowerOfThree.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/IsPowerOfThree.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/IsPalindromeS2.java</url>
@@ -899,18 +926,11 @@
           <option name="timeStamp" value="130" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="138" />
+      <option name="time" value="142" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FindMedianSortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1297,34 +1317,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IsPowerOfThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="method#isPowerOfThree4#0;class#IsPowerOfThree#0" expanded="true" />
-            <element signature="method#isPowerOfThree3#0;class#IsPowerOfThree#0" expanded="true" />
-            <element signature="method#isPowerOfThree2#0;class#IsPowerOfThree#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="94" column="65" lean-forward="false" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IsPowerOfTwo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
           <folding>
             <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
             <element signature="method#isPowerOfTwo2#0;class#IsPowerOfTwo#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="715" column="23" lean-forward="false" selection-start-line="715" selection-start-column="23" selection-end-line="715" selection-end-column="23" />
+          <folding>
+            <element signature="docComment;method#round#0;class#Math#0" expanded="true" />
+            <element signature="docComment;method#round#1;class#Math#0" expanded="true" />
+            <element signature="method#round#1;class#Math#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IsPowerOfThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
+          <folding>
+            <element signature="method#isPowerOfThree#0;class#IsPowerOfThree#0" expanded="true" />
+            <element signature="method#isPowerOfThree4#0;class#IsPowerOfThree#0" expanded="true" />
+            <element signature="method#isPowerOfThree3#0;class#IsPowerOfThree#0" expanded="true" />
+            <element signature="method#isPowerOfThree2#0;class#IsPowerOfThree#0" expanded="true" />
           </folding>
         </state>
       </provider>
