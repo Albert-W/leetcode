@@ -92,7 +92,22 @@ public class ATest {
 //191. Number of 1 Bits
 //        System.out.println(new HammingWeight().hammingWeight(11));
 //326. Power of Three
-        System.out.println(new IsPowerOfThree().isPowerOfThree(243));
+//        System.out.println(new IsPowerOfThree().isPowerOfThree(243));
+//342. Power of Four
+        System.out.println(new IsPowerOfFour().isPowerOfFour(16));
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 
