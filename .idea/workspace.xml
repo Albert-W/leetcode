@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IsPowerOfThree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/IsPowerOfFour.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +27,7 @@
       <file leaf-file-name="HammingWeight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HammingWeight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="304">
               <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="method#hammingWeight#0;class#HammingWeight#0" expanded="true" />
@@ -53,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsPowerOfThree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IsPowerOfThree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IsPowerOfThree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
@@ -68,10 +67,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="IsPowerOfFour.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IsPowerOfFour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="18" />
+              <folding>
+                <element signature="method#isPowerOfFour#0;class#IsPowerOfFour#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Math.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/Math.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
+            <state relative-caret-position="1520">
               <caret line="715" column="23" lean-forward="false" selection-start-line="715" selection-start-column="23" selection-end-line="715" selection-end-column="23" />
               <folding>
                 <element signature="docComment;method#round#0;class#Math#0" expanded="true" />
@@ -85,7 +96,7 @@
       <file leaf-file-name="ATest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
+            <state relative-caret-position="1805">
               <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
@@ -130,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IsPerfectSquare.java" />
         <option value="$PROJECT_DIR$/src/JudgeSquareSum.java" />
         <option value="$PROJECT_DIR$/src/MyPow.java" />
         <option value="$PROJECT_DIR$/src/SuperPow.java" />
@@ -181,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/IsPowerOfTwo.java" />
         <option value="$PROJECT_DIR$/src/ATest.java" />
         <option value="$PROJECT_DIR$/src/IsPowerOfThree.java" />
+        <option value="$PROJECT_DIR$/src/IsPowerOfFour.java" />
       </list>
     </option>
   </component>
@@ -191,8 +202,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="235" />
-    <option name="y" value="21" />
+    <option name="x" value="434" />
+    <option name="y" value="23" />
     <option name="width" value="1321" />
     <option name="height" value="1050" />
   </component>
@@ -214,8 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -233,7 +243,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,14 +396,8 @@
       <workItem from="1525943673535" duration="57000" />
       <workItem from="1525966017150" duration="6160000" />
       <workItem from="1526296255964" duration="9461000" />
-      <workItem from="1526376472891" duration="22239000" />
-    </task>
-    <task id="LOCAL-00029" summary="67. Add Binary">
-      <created>1525168381530</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1525168381530</updated>
+      <workItem from="1526376472891" duration="22291000" />
+      <workItem from="1526411457794" duration="370000" />
     </task>
     <task id="LOCAL-00030" summary="43. Multiply Strings">
       <created>1525175753016</created>
@@ -730,11 +735,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526405905705</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="326. Power of Three">
+      <created>1526406749357</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1526406749357</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298740000" />
+    <option name="totallyTimeSpent" value="299162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,23 +758,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="21" width="1321" height="1050" extended-state="0" />
+    <frame x="434" y="23" width="1321" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32788798" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33605602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32788798" sideWeight="0.5048309" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32088682" sideWeight="0.49516907" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32088682" sideWeight="0.49516907" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27187866" sideWeight="0.49718705" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3325554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32798716" sideWeight="0.4842474" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33520448" sideWeight="0.4842474" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24915445" sideWeight="0.49008167" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -774,6 +785,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33605602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979387" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -812,7 +824,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="100. Same Tree" />
     <MESSAGE value="101. Symmetric Tree" />
     <MESSAGE value="20. Valid Parentheses" />
     <MESSAGE value="110. Balanced Binary Tree" />
@@ -837,7 +848,8 @@
     <MESSAGE value="461. Hamming Distance" />
     <MESSAGE value="477. Total Hamming Distance" />
     <MESSAGE value="231. Power of Two" />
-    <option name="LAST_COMMIT_MESSAGE" value="231. Power of Two" />
+    <MESSAGE value="326. Power of Three" />
+    <option name="LAST_COMMIT_MESSAGE" value="326. Power of Three" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -901,7 +913,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IsPowerOfThree.java</url>
-          <line>37</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="137" />
         </line-breakpoint>
@@ -931,13 +943,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FindMedianSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1212,10 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="888" column="4" lean-forward="true" selection-start-line="888" selection-start-column="4" selection-end-line="888" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;method#keySet#0;class#HashMap#0" expanded="false" />
-            <element signature="method#keySet#0;class#HashMap#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1223,7 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="125" column="43" lean-forward="false" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,9 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
-          <folding>
-            <element signature="docComment;method#next#0;class#Iterator#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1294,7 +1291,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HammingWeight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="304">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="method#hammingWeight#0;class#HammingWeight#0" expanded="true" />
@@ -1331,7 +1328,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
+        <state relative-caret-position="1805">
           <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
@@ -1339,7 +1336,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
+        <state relative-caret-position="1520">
           <caret line="715" column="23" lean-forward="false" selection-start-line="715" selection-start-column="23" selection-end-line="715" selection-end-column="23" />
           <folding>
             <element signature="docComment;method#round#0;class#Math#0" expanded="true" />
@@ -1358,6 +1355,16 @@
             <element signature="method#isPowerOfThree4#0;class#IsPowerOfThree#0" expanded="true" />
             <element signature="method#isPowerOfThree3#0;class#IsPowerOfThree#0" expanded="true" />
             <element signature="method#isPowerOfThree2#0;class#IsPowerOfThree#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IsPowerOfFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="method#isPowerOfFour#0;class#IsPowerOfFour#0" expanded="true" />
           </folding>
         </state>
       </provider>
