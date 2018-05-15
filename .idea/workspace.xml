@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HasAlternatingBits.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SingleNumber2.java" />
+    <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="693. Binary Number with Alternating Bits">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HammingWeight.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
     </list>
@@ -36,26 +35,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HasAlternatingBits.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HasAlternatingBits.java">
+      <file leaf-file-name="HammingWeight.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HammingWeight.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
               <folding>
-                <element signature="method#hasAlternatingBits#0;class#HasAlternatingBits#0" expanded="true" />
-                <element signature="method#hasAlternatingBits2#0;class#HasAlternatingBits#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingleNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SingleNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-              <folding>
-                <element signature="method#singleNumber2#0;class#SingleNumber#0" expanded="true" />
+                <element signature="method#hammingWeight#0;class#HammingWeight#0" expanded="true" />
+                <element signature="method#hammingWeight3#0;class#HammingWeight#0" expanded="true" />
+                <element signature="method#hammingWeight2#0;class#HammingWeight#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +52,8 @@
       <file leaf-file-name="ATest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="90" column="73" lean-forward="false" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="73" />
+            <state relative-caret-position="361">
+              <caret line="92" column="63" lean-forward="false" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -109,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Multiply.java" />
         <option value="$PROJECT_DIR$/src/AddStrings.java" />
         <option value="$PROJECT_DIR$/src/MySqrt.java" />
@@ -158,8 +145,9 @@
         <option value="$PROJECT_DIR$/src/IsPalindromeS2.java" />
         <option value="$PROJECT_DIR$/src/SingleNumber.java" />
         <option value="$PROJECT_DIR$/src/SingleNumber2.java" />
-        <option value="$PROJECT_DIR$/src/ATest.java" />
         <option value="$PROJECT_DIR$/src/HasAlternatingBits.java" />
+        <option value="$PROJECT_DIR$/src/ATest.java" />
+        <option value="$PROJECT_DIR$/src/HammingWeight.java" />
       </list>
     </option>
   </component>
@@ -363,14 +351,7 @@
       <workItem from="1525943673535" duration="57000" />
       <workItem from="1525966017150" duration="6160000" />
       <workItem from="1526296255964" duration="9461000" />
-      <workItem from="1526376472891" duration="15106000" />
-    </task>
-    <task id="LOCAL-00024" summary="52. N-Queens II">
-      <created>1525042978244</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1525042978244</updated>
+      <workItem from="1526376472891" duration="16644000" />
     </task>
     <task id="LOCAL-00025" summary="52. N-Queens II">
       <created>1525129163064</created>
@@ -708,11 +689,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526394021544</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="693. Binary Number with Alternating Bits">
+      <created>1526399211085</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1526399211085</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291607000" />
+    <option name="totallyTimeSpent" value="293145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -740,7 +728,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3325554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32840723" sideWeight="0.4842474" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.4842474" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24915445" sideWeight="0.49008167" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -790,7 +778,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9. Palindrome Number" />
     <MESSAGE value="82. Remove Duplicates from Sorted List II" />
     <MESSAGE value="88. Merge Sorted Array" />
     <MESSAGE value="21. Merge Two Sorted Lists" />
@@ -815,7 +802,8 @@
     <MESSAGE value="125. Valid Palindrome" />
     <MESSAGE value="680. Valid Palindrome II" />
     <MESSAGE value="136. Single Number" />
-    <option name="LAST_COMMIT_MESSAGE" value="136. Single Number" />
+    <MESSAGE value="693. Binary Number with Alternating Bits" />
+    <option name="LAST_COMMIT_MESSAGE" value="693. Binary Number with Alternating Bits" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -880,18 +868,11 @@
           <option name="timeStamp" value="130" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="135" />
+      <option name="time" value="136" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MyPow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TowSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1247,12 +1228,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingleNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/HasAlternatingBits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="247">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding>
-            <element signature="method#singleNumber2#0;class#SingleNumber#0" expanded="true" />
+            <element signature="method#hasAlternatingBits#0;class#HasAlternatingBits#0" expanded="true" />
+            <element signature="method#hasAlternatingBits2#0;class#HasAlternatingBits#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1265,21 +1247,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="method#singleNumber2#0;class#SingleNumber#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="90" column="73" lean-forward="false" selection-start-line="90" selection-start-column="73" selection-end-line="90" selection-end-column="73" />
+        <state relative-caret-position="361">
+          <caret line="92" column="63" lean-forward="false" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HasAlternatingBits.java">
+    <entry file="file://$PROJECT_DIR$/src/HammingWeight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
           <folding>
-            <element signature="method#hasAlternatingBits#0;class#HasAlternatingBits#0" expanded="true" />
-            <element signature="method#hasAlternatingBits2#0;class#HasAlternatingBits#0" expanded="true" />
+            <element signature="method#hammingWeight#0;class#HammingWeight#0" expanded="true" />
+            <element signature="method#hammingWeight3#0;class#HammingWeight#0" expanded="true" />
+            <element signature="method#hammingWeight2#0;class#HammingWeight#0" expanded="true" />
           </folding>
         </state>
       </provider>

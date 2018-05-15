@@ -88,7 +88,9 @@ public class ATest {
 //        int e =( 4 ^ 1 ) | (3 ^ 1 );
 //        return;
 //693. Binary Number with Alternating Bits
-        System.out.println(new HasAlternatingBits().hasAlternatingBits(12));
+//        System.out.println(new HasAlternatingBits().hasAlternatingBits(12));
+//191. Number of 1 Bits
+        System.out.println(new HammingWeight().hammingWeight(11));
 
     }
 
