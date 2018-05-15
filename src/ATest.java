@@ -90,8 +90,9 @@ public class ATest {
 //693. Binary Number with Alternating Bits
 //        System.out.println(new HasAlternatingBits().hasAlternatingBits(12));
 //191. Number of 1 Bits
-        System.out.println(new HammingWeight().hammingWeight(11));
-
+//        System.out.println(new HammingWeight().hammingWeight(11));
+//326. Power of Three
+        System.out.println(new IsPowerOfThree().isPowerOfThree(27));
     }
 
 
