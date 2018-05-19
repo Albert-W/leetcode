@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindTheDifference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReverseBits.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/ReverseBits.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -51,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/FindTheDifference.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="24" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="24" />
               <folding>
                 <element signature="method#findTheDifference#0;class#FindTheDifference#0" expanded="true" />
                 <element signature="method#findTheDifference2#0;class#FindTheDifference#0" expanded="true" />
@@ -169,8 +167,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="754" />
-    <option name="y" value="25" />
+    <option name="x" value="447" />
+    <option name="y" value="23" />
     <option name="width" value="1544" />
     <option name="height" value="1052" />
   </component>
@@ -365,14 +363,7 @@
       <workItem from="1526296255964" duration="9461000" />
       <workItem from="1526376472891" duration="22291000" />
       <workItem from="1526411457794" duration="4408000" />
-      <workItem from="1526730222271" duration="672000" />
-    </task>
-    <task id="LOCAL-00032" summary="69. Sqrt(x)">
-      <created>1525185585123</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1525185585123</updated>
+      <workItem from="1526730222271" duration="747000" />
     </task>
     <task id="LOCAL-00033" summary="69. Sqrt(x)">
       <created>1525185845976</created>
@@ -710,11 +701,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526416115319</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="389. Find the Difference">
+      <created>1526730905894</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1526730905895</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303872000" />
+    <option name="totallyTimeSpent" value="303947000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,7 +724,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="754" y="25" width="1544" height="1052" extended-state="0" />
+    <frame x="447" y="23" width="1544" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -792,7 +790,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20. Valid Parentheses" />
     <MESSAGE value="110. Balanced Binary Tree" />
     <MESSAGE value="102. Binary Tree Level Order Traversal" />
     <MESSAGE value="107. Binary Tree Level Order Traversal II" />
@@ -817,7 +814,8 @@
     <MESSAGE value="231. Power of Two" />
     <MESSAGE value="326. Power of Three" />
     <MESSAGE value="342. Power of Four" />
-    <option name="LAST_COMMIT_MESSAGE" value="342. Power of Four" />
+    <MESSAGE value="389. Find the Difference" />
+    <option name="LAST_COMMIT_MESSAGE" value="389. Find the Difference" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1319,7 +1317,7 @@
     <entry file="file://$PROJECT_DIR$/src/ReverseBits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1327,7 +1325,7 @@
     <entry file="file://$PROJECT_DIR$/src/FindTheDifference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="24" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="24" />
           <folding>
             <element signature="method#findTheDifference#0;class#FindTheDifference#0" expanded="true" />
             <element signature="method#findTheDifference2#0;class#FindTheDifference#0" expanded="true" />

@@ -20,11 +20,21 @@ Explanation:
 
  */
 public class FindTheDifference {
-    //
+    // by subtraction
+    public char findTheDifference(String s, String t) {
+        char[] cs = s.toCharArray();
+        char[] ct = t.toCharArray();
+        int c=(int)ct[0];
+        for (int i = 0; i < cs.length; i++) {
+            //注意先后顺序，需要减的是s;
+            c+=(ct[i+1]-cs[i]);
+        }
+        return (char)c;
 
+    }
 
     //faster bit manipulation; 5ms;
-    public char findTheDifference(String s, String t) {
+    public char findTheDifference2(String s, String t) {
         char[] cs = s.toCharArray();
         char[] ct = t.toCharArray();
         char res = ct[0];
