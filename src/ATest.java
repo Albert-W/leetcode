@@ -100,9 +100,11 @@ public class ATest {
 //        int[] i = new int[]{3, 1, 3, 4, 2};
 //        System.out.println(new FindDuplicate().findDuplicate2(i));
 //561. Array Partition I
-        int[] i = new int[]{1, 2, 3, 2};
-        System.out.println(new ArrayPairSum().arrayPairSum2(i));
-
+//        int[] i = new int[]{1, 2, 3, 2};
+//        System.out.println(new ArrayPairSum().arrayPairSum2(i));
+//169. Majority Element
+        int[] i = new int[]{8, 8, 7, 7, 7};
+        System.out.println(new MajorityElement().majorityElement5(i));
 
 
 
