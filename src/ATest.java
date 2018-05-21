@@ -94,8 +94,11 @@ public class ATest {
 //326. Power of Three
 //        System.out.println(new IsPowerOfThree().isPowerOfThree(243));
 //342. Power of Four
-        System.out.println(new IsPowerOfFour().isPowerOfFour(16));
-
+//        System.out.println(new IsPowerOfFour().isPowerOfFour(16));
+//287. Find the Duplicate Number
+//        int[] i= new int[]{1, 4, 0, 0, 3, 2 };
+        int[] i = new int[]{3, 1, 3, 4, 2};
+        System.out.println(new FindDuplicate().findDuplicate2(i));
 
 
 
