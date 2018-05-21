@@ -97,9 +97,11 @@ public class ATest {
 //        System.out.println(new IsPowerOfFour().isPowerOfFour(16));
 //287. Find the Duplicate Number
 //        int[] i= new int[]{1, 4, 0, 0, 3, 2 };
-        int[] i = new int[]{3, 1, 3, 4, 2};
-        System.out.println(new FindDuplicate().findDuplicate2(i));
-
+//        int[] i = new int[]{3, 1, 3, 4, 2};
+//        System.out.println(new FindDuplicate().findDuplicate2(i));
+//561. Array Partition I
+        int[] i = new int[]{1, 2, 3, 2};
+        System.out.println(new ArrayPairSum().arrayPairSum2(i));
 
 
 
