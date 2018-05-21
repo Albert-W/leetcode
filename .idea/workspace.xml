@@ -4,15 +4,6 @@
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindComplement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HammingDistance.java" afterPath="$PROJECT_DIR$/src/HammingDistance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HammingWeight.java" afterPath="$PROJECT_DIR$/src/HammingWeight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HasAlternatingBits.java" afterPath="$PROJECT_DIR$/src/HasAlternatingBits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IsPowerOfFour.java" afterPath="$PROJECT_DIR$/src/IsPowerOfFour.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IsPowerOfTwo.java" afterPath="$PROJECT_DIR$/src/IsPowerOfTwo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReverseBits.java" afterPath="$PROJECT_DIR$/src/ReverseBits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SingleNumber.java" afterPath="$PROJECT_DIR$/src/SingleNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TotalHammingDistance.java" afterPath="$PROJECT_DIR$/src/TotalHammingDistance.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -398,14 +389,7 @@
       <workItem from="1526411457794" duration="4408000" />
       <workItem from="1526730222271" duration="747000" />
       <workItem from="1526895806169" duration="21964000" />
-      <workItem from="1526936028749" duration="3199000" />
-    </task>
-    <task id="LOCAL-00040" summary="746. Min Cost Climbing Stairs">
-      <created>1525366585621</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1525366585621</updated>
+      <workItem from="1526936028749" duration="3231000" />
     </task>
     <task id="LOCAL-00041" summary="83. Remove Duplicates from Sorted List">
       <created>1525429035696</created>
@@ -743,11 +727,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526926075554</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="note. bit manipulation">
+      <created>1526939287537</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1526939287537</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329110000" />
+    <option name="totallyTimeSpent" value="329142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -825,7 +816,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="104. Maximum Depth of Binary Tree" />
     <MESSAGE value="111. Minimum Depth of Binary Tree" />
     <MESSAGE value="112. Path Sum" />
     <MESSAGE value="113. Path Sum II" />
@@ -850,7 +840,8 @@
     <MESSAGE value="141. Linked List Cycle" />
     <MESSAGE value="561. Array Partition I" />
     <MESSAGE value="169. Majority Element" />
-    <option name="LAST_COMMIT_MESSAGE" value="169. Majority Element" />
+    <MESSAGE value="note. bit manipulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="note. bit manipulation" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
