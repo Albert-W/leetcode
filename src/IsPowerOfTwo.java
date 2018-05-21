@@ -16,6 +16,7 @@ Input: 218
 Output: false
 
  */
+//bit manipulation
 public class IsPowerOfTwo {
     //极简
     public boolean isPowerOfTwo(int n) {

@@ -13,6 +13,7 @@ Input: 128
 Output: 1
 Explanation: Integer 128 has binary representation 00000000000000000000000010000000
  */
+//bit manipulation
 public class HammingWeight {
     // use sign bit;
     public int hammingWeight(int n) {

@@ -11,6 +11,7 @@ Explanation: 43261596 represented in binary as 00000010100101000001111010011100,
 Follow up:
 If this function is called many times, how would you optimize it?
  */
+//bit manipulation
 public class ReverseBits {
     //java中没有可以set bit的函数，每次改变都是重新赋值；
     // you need treat n as an unsigned value

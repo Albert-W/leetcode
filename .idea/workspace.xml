@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindComplement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HammingDistance.java" afterPath="$PROJECT_DIR$/src/HammingDistance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HammingWeight.java" afterPath="$PROJECT_DIR$/src/HammingWeight.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HasAlternatingBits.java" afterPath="$PROJECT_DIR$/src/HasAlternatingBits.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IsPowerOfFour.java" afterPath="$PROJECT_DIR$/src/IsPowerOfFour.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IsPowerOfTwo.java" afterPath="$PROJECT_DIR$/src/IsPowerOfTwo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReverseBits.java" afterPath="$PROJECT_DIR$/src/ReverseBits.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SingleNumber.java" afterPath="$PROJECT_DIR$/src/SingleNumber.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TotalHammingDistance.java" afterPath="$PROJECT_DIR$/src/TotalHammingDistance.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,36 +33,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="IsPowerOfFour.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IsPowerOfFour.java">
+      <file leaf-file-name="MajorityElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="228">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
-                <element signature="method#isPowerOfFour#0;class#IsPowerOfFour#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReverseBits.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReverseBits.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindTheDifference.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FindTheDifference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="24" />
-              <folding>
-                <element signature="method#findTheDifference#0;class#FindTheDifference#0" expanded="true" />
-                <element signature="method#findTheDifference2#0;class#FindTheDifference#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#majorityElement6#0;class#MajorityElement#0" expanded="true" />
+                <element signature="method#major#0;class#MajorityElement#0" expanded="true" />
+                <element signature="method#count#0;class#MajorityElement#0" expanded="true" />
+                <element signature="method#majorityElement4#0;class#MajorityElement#0" expanded="true" />
+                <element signature="method#majorityElement2#0;class#MajorityElement#0" expanded="true" />
+                <element signature="method#majorityElement3#0;class#MajorityElement#0" expanded="true" />
+                <element signature="method#majorityElement#0;class#MajorityElement#0" expanded="true" />
+                <element signature="method#findIndexK#0;class#MajorityElement#0" expanded="true" />
+                <element signature="method#partition#0;class#MajorityElement#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,9 +57,37 @@
       <file leaf-file-name="ATest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+            <state relative-caret-position="352">
+              <caret line="109" column="65" lean-forward="false" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindTheDifference.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FindTheDifference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-114">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="method#findTheDifference3#0;class#FindTheDifference#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindComplement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FindComplement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding>
+                <element signature="method#findComplement5#0;class#FindComplement#0" expanded="true" />
+                <element signature="method#findComplement4#0;class#FindComplement#0" expanded="true" />
+                <element signature="method#findComplement3#0;class#FindComplement#0" expanded="true" />
+                <element signature="method#findComplement2#0;class#FindComplement#0" expanded="true" />
+                <element signature="method#findComplement#0;class#FindComplement#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,6 +107,16 @@
       <find>null</find>
       <find>dfs</find>
       <find>buildtree</find>
+      <find>bit</find>
+      <find>342</find>
+      <find>231</find>
+      <find>191</find>
+      <find>190</find>
+      <find>136</find>
+      <find>389</find>
+      <find>477</find>
+      <find>461</find>
+      <find>693</find>
     </findStrings>
     <dirStrings>
       <dir>E:\codes\GitHub\leetcode</dir>
@@ -106,13 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SuperPow.java" />
-        <option value="$PROJECT_DIR$/src/ClimbStairs.java" />
-        <option value="$PROJECT_DIR$/src/MinCostClimbingStairs.java" />
-        <option value="$PROJECT_DIR$/src/DeleteDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/TowSum.java" />
-        <option value="$PROJECT_DIR$/src/AddTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/LengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/FindMedianSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/Convert.java" />
@@ -145,18 +172,25 @@
         <option value="$PROJECT_DIR$/src/Generate2.java" />
         <option value="$PROJECT_DIR$/src/IsPalindromeS.java" />
         <option value="$PROJECT_DIR$/src/IsPalindromeS2.java" />
-        <option value="$PROJECT_DIR$/src/SingleNumber.java" />
         <option value="$PROJECT_DIR$/src/SingleNumber2.java" />
-        <option value="$PROJECT_DIR$/src/HasAlternatingBits.java" />
-        <option value="$PROJECT_DIR$/src/HammingWeight.java" />
-        <option value="$PROJECT_DIR$/src/HammingDistance.java" />
-        <option value="$PROJECT_DIR$/src/TotalHammingDistance.java" />
-        <option value="$PROJECT_DIR$/src/IsPowerOfTwo.java" />
         <option value="$PROJECT_DIR$/src/IsPowerOfThree.java" />
-        <option value="$PROJECT_DIR$/src/ATest.java" />
         <option value="$PROJECT_DIR$/src/IsPowerOfFour.java" />
-        <option value="$PROJECT_DIR$/src/ReverseBits.java" />
         <option value="$PROJECT_DIR$/src/FindTheDifference.java" />
+        <option value="$PROJECT_DIR$/src/MissingNumber.java" />
+        <option value="$PROJECT_DIR$/src/FindDuplicate.java" />
+        <option value="$PROJECT_DIR$/src/DetectCycle.java" />
+        <option value="$PROJECT_DIR$/src/HasCycle.java" />
+        <option value="$PROJECT_DIR$/src/ArrayPairSum.java" />
+        <option value="$PROJECT_DIR$/src/MajorityElement.java" />
+        <option value="$PROJECT_DIR$/src/IsPowerOfTwo.java" />
+        <option value="$PROJECT_DIR$/src/HammingWeight.java" />
+        <option value="$PROJECT_DIR$/src/ReverseBits.java" />
+        <option value="$PROJECT_DIR$/src/SingleNumber.java" />
+        <option value="$PROJECT_DIR$/src/TotalHammingDistance.java" />
+        <option value="$PROJECT_DIR$/src/HammingDistance.java" />
+        <option value="$PROJECT_DIR$/src/HasAlternatingBits.java" />
+        <option value="$PROJECT_DIR$/src/ATest.java" />
+        <option value="$PROJECT_DIR$/src/FindComplement.java" />
       </list>
     </option>
   </component>
@@ -167,10 +201,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="447" />
-    <option name="y" value="23" />
-    <option name="width" value="1544" />
-    <option name="height" value="1052" />
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -191,7 +224,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,7 +241,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -364,55 +397,8 @@
       <workItem from="1526376472891" duration="22291000" />
       <workItem from="1526411457794" duration="4408000" />
       <workItem from="1526730222271" duration="747000" />
-    </task>
-    <task id="LOCAL-00033" summary="69. Sqrt(x)">
-      <created>1525185845976</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1525185845976</updated>
-    </task>
-    <task id="LOCAL-00034" summary="367. Valid Perfect Square">
-      <created>1525186727511</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1525186727511</updated>
-    </task>
-    <task id="LOCAL-00035" summary="633. Sum of Square Numbers">
-      <created>1525187675140</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1525187675140</updated>
-    </task>
-    <task id="LOCAL-00036" summary="50. Pow(x, n)">
-      <created>1525212104877</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1525212104877</updated>
-    </task>
-    <task id="LOCAL-00037" summary="372. Super Pow">
-      <created>1525252105197</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1525252105197</updated>
-    </task>
-    <task id="LOCAL-00038" summary="70. Climbing Stairs">
-      <created>1525359793210</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1525359793210</updated>
-    </task>
-    <task id="LOCAL-00039" summary="746. Min Cost Climbing Stairs">
-      <created>1525366159684</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1525366159684</updated>
+      <workItem from="1526895806169" duration="21964000" />
+      <workItem from="1526936028749" duration="3199000" />
     </task>
     <task id="LOCAL-00040" summary="746. Min Cost Climbing Stairs">
       <created>1525366585621</created>
@@ -708,11 +694,60 @@
       <option name="project" value="LOCAL" />
       <updated>1526730905895</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="389. Find the Difference">
+      <created>1526896768983</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1526896768984</updated>
+    </task>
+    <task id="LOCAL-00083" summary="268. Missing Number">
+      <created>1526896783917</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1526896783917</updated>
+    </task>
+    <task id="LOCAL-00084" summary="287. Find the Duplicate Number">
+      <created>1526911845707</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1526911845707</updated>
+    </task>
+    <task id="LOCAL-00085" summary="142. Linked List Cycle II">
+      <created>1526912935267</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1526912935267</updated>
+    </task>
+    <task id="LOCAL-00086" summary="141. Linked List Cycle">
+      <created>1526913326284</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1526913326284</updated>
+    </task>
+    <task id="LOCAL-00087" summary="561. Array Partition I">
+      <created>1526917422553</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1526917422553</updated>
+    </task>
+    <task id="LOCAL-00088" summary="169. Majority Element">
+      <created>1526926075554</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1526926075554</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303947000" />
+    <option name="totallyTimeSpent" value="329110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -724,37 +759,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="447" y="23" width="1544" height="1052" extended-state="0" />
+    <frame x="952" y="0" width="976" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32788798" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33605602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32788798" sideWeight="0.5048309" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32088682" sideWeight="0.49516907" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32088682" sideWeight="0.49516907" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27187866" sideWeight="0.49718705" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3325554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33178115" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28911564" sideWeight="0.4842474" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22800429" sideWeight="0.4842474" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24915445" sideWeight="0.49008167" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3932322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39206535" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4441939" sideWeight="0.5157526" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33605602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979387" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,12 +825,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="110. Balanced Binary Tree" />
-    <MESSAGE value="102. Binary Tree Level Order Traversal" />
-    <MESSAGE value="107. Binary Tree Level Order Traversal II" />
-    <MESSAGE value="637. Average of Levels in Binary Tree" />
-    <MESSAGE value="108. Convert Sorted Array to Binary Search Tree" />
-    <MESSAGE value="109. Convert Sorted List to Binary Search Tree" />
     <MESSAGE value="104. Maximum Depth of Binary Tree" />
     <MESSAGE value="111. Minimum Depth of Binary Tree" />
     <MESSAGE value="112. Path Sum" />
@@ -815,7 +844,13 @@
     <MESSAGE value="326. Power of Three" />
     <MESSAGE value="342. Power of Four" />
     <MESSAGE value="389. Find the Difference" />
-    <option name="LAST_COMMIT_MESSAGE" value="389. Find the Difference" />
+    <MESSAGE value="268. Missing Number" />
+    <MESSAGE value="287. Find the Duplicate Number" />
+    <MESSAGE value="142. Linked List Cycle II" />
+    <MESSAGE value="141. Linked List Cycle" />
+    <MESSAGE value="561. Array Partition I" />
+    <MESSAGE value="169. Majority Element" />
+    <option name="LAST_COMMIT_MESSAGE" value="169. Majority Element" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -872,12 +907,6 @@
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TotalHammingDistance.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IsPowerOfThree.java</url>
           <line>36</line>
           <properties />
@@ -895,6 +924,12 @@
           <properties />
           <option name="timeStamp" value="141" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FindComplement.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/IsPalindromeS2.java</url>
           <line>83</line>
@@ -904,60 +939,11 @@
           <option name="timeStamp" value="130" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="142" />
+      <option name="time" value="149" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myAtoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IsMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeleteDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeleteDuplicates2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MergeKLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MergeTwoLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1200,57 +1186,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HasAlternatingBits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="method#hasAlternatingBits#0;class#HasAlternatingBits#0" expanded="true" />
-            <element signature="method#hasAlternatingBits2#0;class#HasAlternatingBits#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="method#singleNumber2#0;class#SingleNumber#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HammingDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="e#483#484#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="method#hammingWeight#0;class#HammingDistance#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SingleNumber2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TotalHammingDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="method#totalHammingDistance#0;class#TotalHammingDistance#0" expanded="true" />
-            <element signature="method#totalHammingDistance2#0;class#TotalHammingDistance#0" expanded="true" />
-            <element signature="method#hammingDistance#0;class#TotalHammingDistance#0" expanded="true" />
-            <element signature="method#hammingWeight#0;class#TotalHammingDistance#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,42 +1204,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
-          <folding>
-            <element signature="method#isPowerOfThree#0;class#IsPowerOfThree#0" expanded="true" />
-            <element signature="method#isPowerOfThree4#0;class#IsPowerOfThree#0" expanded="true" />
-            <element signature="method#isPowerOfThree3#0;class#IsPowerOfThree#0" expanded="true" />
-            <element signature="method#isPowerOfThree2#0;class#IsPowerOfThree#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HammingWeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="method#hammingWeight#0;class#HammingWeight#0" expanded="true" />
-            <element signature="method#hammingWeight3#0;class#HammingWeight#0" expanded="true" />
-            <element signature="method#hammingWeight2#0;class#HammingWeight#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IsPowerOfTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="method#isPowerOfTwo2#0;class#IsPowerOfTwo#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1308,27 +1212,176 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MissingNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayPairSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="10" column="79" lean-forward="true" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
           <folding>
-            <element signature="method#isPowerOfFour#0;class#IsPowerOfFour#0" expanded="true" />
+            <element signature="method#arrayPairSum3#0;class#ArrayPairSum#0" expanded="true" />
+            <element signature="method#arrayPairSum2#0;class#ArrayPairSum#0" expanded="true" />
+            <element signature="method#arrayPairSum#0;class#ArrayPairSum#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HasCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="method#hasCycle#0;class#HasCycle#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DetectCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="51" />
+          <folding>
+            <element signature="method#findDuplicate2#0;class#FindDuplicate#0" expanded="false" />
+            <element signature="method#findDuplicate3#0;class#FindDuplicate#0" expanded="false" />
+            <element signature="method#findDuplicate#0;class#FindDuplicate#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HammingWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReverseBits.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="method#reverseBits#0;class#ReverseBits#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TotalHammingDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="method#totalHammingDistance#0;class#TotalHammingDistance#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HammingDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="method#hammingWeight#0;class#HammingDistance#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HasAlternatingBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="method#hasAlternatingBits#0;class#HasAlternatingBits#0" expanded="true" />
+            <element signature="method#hasAlternatingBits2#0;class#HasAlternatingBits#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="method#singleNumber#0;class#SingleNumber#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IsPowerOfTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#majorityElement6#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#major#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#count#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#majorityElement4#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#majorityElement2#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#majorityElement3#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#majorityElement#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#findIndexK#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#partition#0;class#MajorityElement#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="109" column="65" lean-forward="false" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FindTheDifference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="-114">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="method#findTheDifference#0;class#FindTheDifference#0" expanded="true" />
-            <element signature="method#findTheDifference2#0;class#FindTheDifference#0" expanded="true" />
+            <element signature="method#findTheDifference3#0;class#FindTheDifference#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindComplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="method#findComplement5#0;class#FindComplement#0" expanded="true" />
+            <element signature="method#findComplement4#0;class#FindComplement#0" expanded="true" />
+            <element signature="method#findComplement3#0;class#FindComplement#0" expanded="true" />
+            <element signature="method#findComplement2#0;class#FindComplement#0" expanded="true" />
+            <element signature="method#findComplement#0;class#FindComplement#0" expanded="true" />
           </folding>
         </state>
       </provider>

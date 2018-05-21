@@ -8,7 +8,7 @@ Given num = 16, return true. Given num = 5, return false.
 Follow up: Could you solve it without loops/recursion?
  */
 public class IsPowerOfFour {
-
+    //bit manipulation
     //n > 0 && (n & (n - 1)) == 0 保证n 是2的次幂，2进制表示中只存在一个1；
     //4进制要保证这唯一的1出现在遇数位上。即n & 0x 55555555 !=0
     public boolean isPowerOfFour(int n) {

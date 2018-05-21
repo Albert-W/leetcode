@@ -23,7 +23,7 @@ Output: True
 Explanation:
 The binary representation of 10 is: 1010.
  */
-
+//bit manipulation
 
 public class HasAlternatingBits {
     //通位移一位比较
