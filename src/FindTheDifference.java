@@ -34,7 +34,7 @@ public class FindTheDifference {
     }
 
     //faster bit manipulation; 5ms;
-    public char findTheDifference2(String s, String t) {
+    public char findTheDifference3(String s, String t) {
         char[] cs = s.toCharArray();
         char[] ct = t.toCharArray();
         char res = ct[0];
