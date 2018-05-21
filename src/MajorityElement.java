@@ -28,6 +28,7 @@ public class MajorityElement {
                 if ((nums[j] >> i & 1) == 1) count++;
 
             }
+            //从最低位开始，依次写入；
             if (count > nums.length / 2) {
                 res = res | (1 << i);
             }
@@ -48,10 +49,13 @@ public class MajorityElement {
         int mid = sta + (end - sta) / 2;
         int lMajor = major(nums, sta, mid);
         int rMajor = major(nums, mid + 1, end);
-//        return Math.max(lMajor,rMajor);//this will get the maximum value;
+        //this will get the maximum value;
+//        return Math.max(lMajor,rMajor);
         if (lMajor == rMajor) return lMajor;
         //如果不等，就比较票数；8,8,7,7,7;
-        //*如果前一半的票数=后一半的票数，结果一定在后一半。因为后一半的总元素少一;
+        //设绝对多数x在左右两边的个数为a,b 总个数为n;
+        //(a+b)>n/2 推出 a > n/2 - b;
+        //即左边a一定大于右边非a之数的总和。
         return count(nums, sta, mid, lMajor) > count(nums, mid + 1, end, rMajor) ? lMajor : rMajor;
     }
 

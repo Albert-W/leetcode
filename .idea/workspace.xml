@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindComplement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MajorityElement.java" afterPath="$PROJECT_DIR$/src/MajorityElement.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MajorityElement.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MajorityElement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="76">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#majorityElement6#0;class#MajorityElement#0" expanded="true" />
@@ -51,34 +51,6 @@
             <state relative-caret-position="352">
               <caret line="109" column="65" lean-forward="false" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindTheDifference.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FindTheDifference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="method#findTheDifference3#0;class#FindTheDifference#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindComplement.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FindComplement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-              <folding>
-                <element signature="method#findComplement5#0;class#FindComplement#0" expanded="true" />
-                <element signature="method#findComplement4#0;class#FindComplement#0" expanded="true" />
-                <element signature="method#findComplement3#0;class#FindComplement#0" expanded="true" />
-                <element signature="method#findComplement2#0;class#FindComplement#0" expanded="true" />
-                <element signature="method#findComplement#0;class#FindComplement#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -172,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/DetectCycle.java" />
         <option value="$PROJECT_DIR$/src/HasCycle.java" />
         <option value="$PROJECT_DIR$/src/ArrayPairSum.java" />
-        <option value="$PROJECT_DIR$/src/MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/IsPowerOfTwo.java" />
         <option value="$PROJECT_DIR$/src/HammingWeight.java" />
         <option value="$PROJECT_DIR$/src/ReverseBits.java" />
@@ -182,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/HasAlternatingBits.java" />
         <option value="$PROJECT_DIR$/src/ATest.java" />
         <option value="$PROJECT_DIR$/src/FindComplement.java" />
+        <option value="$PROJECT_DIR$/src/MajorityElement.java" />
       </list>
     </option>
   </component>
@@ -192,8 +164,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
+    <option name="x" value="889" />
+    <option name="width" value="1039" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -389,14 +361,7 @@
       <workItem from="1526411457794" duration="4408000" />
       <workItem from="1526730222271" duration="747000" />
       <workItem from="1526895806169" duration="21964000" />
-      <workItem from="1526936028749" duration="3231000" />
-    </task>
-    <task id="LOCAL-00041" summary="83. Remove Duplicates from Sorted List">
-      <created>1525429035696</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1525429035696</updated>
+      <workItem from="1526936028749" duration="4296000" />
     </task>
     <task id="LOCAL-00042" summary="1. Two Sum">
       <created>1525429454358</created>
@@ -734,11 +699,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526939287537</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="476. Number Complement">
+      <created>1526939312580</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1526939312580</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329142000" />
+    <option name="totallyTimeSpent" value="330207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,7 +722,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1050" extended-state="0" />
+    <frame x="889" y="0" width="1039" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -816,7 +788,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="111. Minimum Depth of Binary Tree" />
     <MESSAGE value="112. Path Sum" />
     <MESSAGE value="113. Path Sum II" />
     <MESSAGE value="437. Path Sum III" />
@@ -841,7 +812,8 @@
     <MESSAGE value="561. Array Partition I" />
     <MESSAGE value="169. Majority Element" />
     <MESSAGE value="note. bit manipulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="note. bit manipulation" />
+    <MESSAGE value="476. Number Complement" />
+    <option name="LAST_COMMIT_MESSAGE" value="476. Number Complement" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -914,12 +886,6 @@
           <line>9</line>
           <properties />
           <option name="timeStamp" value="141" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/FindComplement.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/IsPalindromeS2.java</url>
@@ -1326,21 +1292,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
+    <entry file="file://$PROJECT_DIR$/src/FindComplement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="-1121">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#majorityElement6#0;class#MajorityElement#0" expanded="true" />
-            <element signature="method#major#0;class#MajorityElement#0" expanded="true" />
-            <element signature="method#count#0;class#MajorityElement#0" expanded="true" />
-            <element signature="method#majorityElement4#0;class#MajorityElement#0" expanded="true" />
-            <element signature="method#majorityElement2#0;class#MajorityElement#0" expanded="true" />
-            <element signature="method#majorityElement3#0;class#MajorityElement#0" expanded="true" />
-            <element signature="method#majorityElement#0;class#MajorityElement#0" expanded="true" />
-            <element signature="method#findIndexK#0;class#MajorityElement#0" expanded="true" />
-            <element signature="method#partition#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#findComplement5#0;class#FindComplement#0" expanded="true" />
+            <element signature="method#findComplement4#0;class#FindComplement#0" expanded="true" />
+            <element signature="method#findComplement3#0;class#FindComplement#0" expanded="true" />
+            <element signature="method#findComplement2#0;class#FindComplement#0" expanded="true" />
+            <element signature="method#findComplement#0;class#FindComplement#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindTheDifference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-389">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="method#findTheDifference3#0;class#FindTheDifference#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1353,26 +1324,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindTheDifference.java">
+    <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="21" />
           <folding>
-            <element signature="method#findTheDifference3#0;class#FindTheDifference#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindComplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="method#findComplement5#0;class#FindComplement#0" expanded="true" />
-            <element signature="method#findComplement4#0;class#FindComplement#0" expanded="true" />
-            <element signature="method#findComplement3#0;class#FindComplement#0" expanded="true" />
-            <element signature="method#findComplement2#0;class#FindComplement#0" expanded="true" />
-            <element signature="method#findComplement#0;class#FindComplement#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#majorityElement6#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#major#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#count#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#majorityElement4#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#majorityElement2#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#majorityElement3#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#majorityElement#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#findIndexK#0;class#MajorityElement#0" expanded="true" />
+            <element signature="method#partition#0;class#MajorityElement#0" expanded="true" />
           </folding>
         </state>
       </provider>
