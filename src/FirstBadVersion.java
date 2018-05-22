@@ -13,7 +13,7 @@ You are given an API bool isBadVersion(version) which will return whether versio
 class VersionControl{
     boolean isBadVersion(int version){
         return true;
-    };
+    }
 }
 
 
