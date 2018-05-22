@@ -5,7 +5,9 @@ Given a string containing just the characters '(', ')', '{', '}', '[' and ']', d
 The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
  */
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Stack;
 
 public class IsValid {
     //
@@ -33,9 +35,7 @@ public class IsValid {
                     stack.pop();
             }
         }
-        if(stack.empty())
-            return true;
-        else return false;
+        return stack.empty();
 
     }
 
@@ -48,9 +48,7 @@ public class IsValid {
             else
                 set.add(s.charAt(i));
         }
-        if(s.length()==0)
-            return true;
-        else return false;
+        return s.length() == 0;
     }
 
     //"([)]"
@@ -66,11 +64,9 @@ public class IsValid {
             if(map.containsKey(s.charAt(i)))
                 map.put(s.charAt(i),map.get(s.charAt(i))+1);
         }
-        if(map.get('(')==map.get(')') &&
-            map.get('{')==map.get('}') &&
-                map.get('[')==map.get(']')
-        ) return true;
-        else return false;
+        return map.get('(') == map.get(')') &&
+            map.get('{') == map.get('}') &&
+            map.get('[') == map.get(']');
 
     }
 

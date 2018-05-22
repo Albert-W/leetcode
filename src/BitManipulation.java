@@ -72,8 +72,8 @@ a ^ b = b ^ a
 3、取绝对值
 a ^ (a>>31) - (a>>31);
 
-4、得到全1
-~0
+4、全1
+~0 = -1 = 0xffffffff
 
 5、负数
 -a = ~a + 1
@@ -157,7 +157,10 @@ return (a+1)>>1;
 public class BitManipulation {
     public static void main(String[] args) {
         int a = 2;
-        System.out.println(1 << 31);
+        int b = -1;
+        int c = ~0;
+        int d = 0xffffffff;
+        System.out.println(b == d && c == d);
     }
 
 

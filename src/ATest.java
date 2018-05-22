@@ -109,8 +109,9 @@ public class ATest {
 //476. Number Complement
 //        System.out.println(new FindComplement().findComplement3(8));
 //371. Sum of Two Integers
-        System.out.println(new GetSum().getSum2(3, 50));
-
+//        System.out.println(new GetSum().getSum2(3, 50));
+//762. Prime Number of Set Bits in Binary Representation
+        System.out.println(new CountPrimeSetBits().countPrimeSetBits3(842, 888));
 
 
 

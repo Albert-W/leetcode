@@ -46,7 +46,6 @@ public class HasAlternatingBits {
             if ((mask & 1) == (n & 1)) {
                 return false;
             }
-            ;
             //或者 mask = 1- mask; 会在0，1之间跳转
             mask++;
             n = n >> 1;

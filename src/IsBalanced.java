@@ -36,9 +36,7 @@ public class IsBalanced {
     //利用变量存储，时间爆减为2ms;
     public boolean isBalanced(TreeNode root) {
         if(root==null)return true;
-        if(balanceDepth(root)==-1)
-            return false;
-        return true;
+        return balanceDepth(root) != -1;
 
     }
     public int balanceDepth(TreeNode root) {
@@ -59,9 +57,7 @@ public class IsBalanced {
     //一下子展开了四层，时间爆炸了；
     public boolean isBalanced3(TreeNode root) {
         if(root==null)return true;
-        if(balanceDepth3(root)==-1)
-            return false;
-        return true;
+        return balanceDepth3(root) != -1;
 
     }
     public int balanceDepth3(TreeNode root) {
@@ -84,9 +80,7 @@ public class IsBalanced {
         if(root==null)return true;
         if(Math.abs( maxDepth2(root.left)-maxDepth2(root.right))>1)
             return false;
-        if(!isBalanced2(root.right)||!isBalanced2(root.left))
-            return false;
-        return true;
+        return isBalanced2(root.right) && isBalanced2(root.left);
 
     }
     public int maxDepth2(TreeNode root) {

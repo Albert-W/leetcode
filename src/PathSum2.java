@@ -90,7 +90,7 @@ public class PathSum2 {
                 temp.remove(temp.size()-1);
             }
             return res;
-        };
+        }
 
         temp.add(root.val);
         pathSum2(root.left,sum-root.val);
