@@ -107,9 +107,9 @@ public class ATest {
 //        System.out.println(new MajorityElement().majorityElement5(i));
 //
 //476. Number Complement
-        System.out.println(new FindComplement().findComplement3(8));
-
-
+//        System.out.println(new FindComplement().findComplement3(8));
+//371. Sum of Two Integers
+        System.out.println(new GetSum().getSum2(3, 50));
 
 
 

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BitManipulation.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GetSum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,21 +46,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetSum.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GetSum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GetSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="24" />
+              <folding>
+                <element signature="method#getSum2#0;class#GetSum#0" expanded="true" />
+                <element signature="method#getSum#0;class#GetSum#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitManipulation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BitManipulation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BitManipulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="304">
+              <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
               <folding>
                 <element signature="method#main#0;class#BitManipulation#0" expanded="true" />
               </folding>
@@ -71,8 +74,8 @@
       <file leaf-file-name="ATest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="109" column="65" lean-forward="false" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
+            <state relative-caret-position="219">
+              <caret line="111" column="55" lean-forward="true" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -172,11 +175,11 @@
         <option value="$PROJECT_DIR$/src/TotalHammingDistance.java" />
         <option value="$PROJECT_DIR$/src/HammingDistance.java" />
         <option value="$PROJECT_DIR$/src/HasAlternatingBits.java" />
-        <option value="$PROJECT_DIR$/src/ATest.java" />
         <option value="$PROJECT_DIR$/src/FindComplement.java" />
         <option value="$PROJECT_DIR$/src/MajorityElement.java" />
-        <option value="$PROJECT_DIR$/src/GetSum.java" />
         <option value="$PROJECT_DIR$/src/BitManipulation.java" />
+        <option value="$PROJECT_DIR$/src/ATest.java" />
+        <option value="$PROJECT_DIR$/src/GetSum.java" />
       </list>
     </option>
   </component>
@@ -187,8 +190,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="725" />
-    <option name="y" value="13" />
+    <option name="x" value="555" />
+    <option name="y" value="28" />
     <option name="width" value="1631" />
     <option name="height" value="1050" />
   </component>
@@ -253,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BitManipulation">
+  <component name="RunManager" selected="Application.ATest">
     <configuration name="ATest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ATest" />
@@ -335,8 +338,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.BitManipulation" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ATest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ATest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BitManipulation" />
         <item index="2" class="java.lang.String" itemvalue="Application.TestNode" />
         <item index="3" class="java.lang.String" itemvalue="Application.Main" />
       </list>
@@ -402,14 +405,7 @@
       <workItem from="1526730222271" duration="747000" />
       <workItem from="1526895806169" duration="21964000" />
       <workItem from="1526936028749" duration="5493000" />
-      <workItem from="1526977330536" duration="9099000" />
-    </task>
-    <task id="LOCAL-00043" summary="2. Add Two Numbers">
-      <created>1525429629164</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1525429629164</updated>
+      <workItem from="1526977330536" duration="10034000" />
     </task>
     <task id="LOCAL-00044" summary="3. Longest Substring Without Repeating Characters">
       <created>1525429969196</created>
@@ -747,11 +743,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526940375326</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Bit manipulation summary;">
+      <created>1526987488185</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1526987488186</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340503000" />
+    <option name="totallyTimeSpent" value="341438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,7 +766,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="725" y="13" width="1631" height="1050" extended-state="0" />
+    <frame x="555" y="28" width="1631" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -774,7 +777,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32788798" sideWeight="0.5048309" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32088682" sideWeight="0.49516907" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32088682" sideWeight="0.49516907" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27187866" sideWeight="0.49718705" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33178115" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -829,7 +832,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="112. Path Sum" />
     <MESSAGE value="113. Path Sum II" />
     <MESSAGE value="437. Path Sum III" />
     <MESSAGE value="257. Binary Tree Paths" />
@@ -854,7 +856,8 @@
     <MESSAGE value="note. bit manipulation" />
     <MESSAGE value="476. Number Complement" />
     <MESSAGE value="169. Majority Element" />
-    <option name="LAST_COMMIT_MESSAGE" value="169. Majority Element" />
+    <MESSAGE value="Bit manipulation summary;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bit manipulation summary;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1297,14 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="109" column="65" lean-forward="false" selection-start-line="109" selection-start-column="65" selection-end-line="109" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-209">
@@ -1324,20 +1319,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GetSum.java">
+    <entry file="file://$PROJECT_DIR$/src/BitManipulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="304">
+          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+          <folding>
+            <element signature="method#main#0;class#BitManipulation#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="111" column="55" lean-forward="true" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BitManipulation.java">
+    <entry file="file://$PROJECT_DIR$/src/GetSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="24" />
           <folding>
-            <element signature="method#main#0;class#BitManipulation#0" expanded="true" />
+            <element signature="method#getSum2#0;class#GetSum#0" expanded="true" />
+            <element signature="method#getSum#0;class#GetSum#0" expanded="true" />
           </folding>
         </state>
       </provider>
