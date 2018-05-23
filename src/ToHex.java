@@ -71,21 +71,5 @@ public class ToHex {
 
     }
 
-    //optimize
-    //not working 26->0000001a;
-//    public String toHex3(int num) {
-//        char[] map = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};
-//        StringBuilder res = new StringBuilder();
-//        if (num == 0) return "0";
-//        while (num != 0) {
-//            int mask = 0xf0000000;
-//            int temp =(num & mask)>>> 28;
-//            res = res.append(map[temp] );
-//            //in cast of the negative numbers;
-//            num = num << 4;
-//        }
-//        return res.toString();
-//    }
-
 
 }
