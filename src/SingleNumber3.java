@@ -14,7 +14,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
  */
 //Bit Manipulation
 public class SingleNumber3 {
-    //2ms;
+    //  2ms;
     public int[] singleNumber(int[] nums) {
         int[] res = new int[2];
         //得到两数的异或
