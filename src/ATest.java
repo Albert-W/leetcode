@@ -113,8 +113,10 @@ public class ATest {
 //762. Prime Number of Set Bits in Binary Representation
 //        System.out.println(new CountPrimeSetBits().countPrimeSetBits3(842, 888));
 //405. Convert a Number to Hexadecimal
-        System.out.println(new ToHex().toHex3(-1));
-
+//        System.out.println(new ToHex().toHex3(-1));
+//137. Single Number II
+        int[] i = {-2, -2, 3, 3, 3};
+        System.out.println(new SingleNumber2().singleNumber2(i));
 
     }
 
