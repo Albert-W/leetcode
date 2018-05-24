@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SingleNumber2.java" afterPath="$PROJECT_DIR$/src/SingleNumber2.java" />
-    </list>
+    <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/ATest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="295">
-              <caret line="117" column="24" lean-forward="false" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+              <caret line="117" column="26" lean-forward="false" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -412,14 +408,7 @@
       <workItem from="1527007838922" duration="2526000" />
       <workItem from="1527110565792" duration="113000" />
       <workItem from="1527151799975" duration="193000" />
-      <workItem from="1527181576107" duration="4889000" />
-    </task>
-    <task id="LOCAL-00050" summary="21. Merge Two Sorted Lists">
-      <created>1525445619476</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1525445619476</updated>
+      <workItem from="1527181576107" duration="4978000" />
     </task>
     <task id="LOCAL-00051" summary="23. Merge k Sorted Lists">
       <created>1525445700476</created>
@@ -757,11 +746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527151976059</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="260. Single Number III">
+      <created>1527186556196</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1527186556197</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359080000" />
+    <option name="totallyTimeSpent" value="359169000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -809,6 +805,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -839,7 +838,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="680. Valid Palindrome II" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="136. Single Number" />
     <MESSAGE value="693. Binary Number with Alternating Bits" />
     <MESSAGE value="191. Number of 1 Bits" />
@@ -864,7 +863,8 @@
     <MESSAGE value="405. Convert a Number to Hexadecimal" />
     <MESSAGE value="update" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="260. Single Number III" />
+    <option name="LAST_COMMIT_MESSAGE" value="260. Single Number III" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1328,7 +1328,7 @@
     <entry file="file://$PROJECT_DIR$/src/ATest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
-          <caret line="117" column="24" lean-forward="false" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+          <caret line="117" column="26" lean-forward="false" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
           <folding />
         </state>
       </provider>
