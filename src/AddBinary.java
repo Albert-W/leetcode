@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
 /*
 67. Add Binary
 Given two binary strings, return their sum (also a binary string).
@@ -17,6 +14,7 @@ Input: a = "1010", b = "1011"
 Output: "10101"
 
  */
+//Math;String;
 public class AddBinary {
     //充分利用长链的数据；
     public String addBinary(String a, String b) {
