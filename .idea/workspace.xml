@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MinStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GetIntersectionNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,75 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CountBits.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CountBits.java">
+      <file leaf-file-name="GetIntersectionNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GetIntersectionNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="37" />
               <folding>
-                <element signature="method#countBits2#0;class#CountBits#0" expanded="true" />
-                <element signature="method#countBits#0;class#CountBits#0" expanded="true" />
-                <element signature="method#cBits#0;class#CountBits#0" expanded="true" />
+                <element signature="method#getIntersectionNode2#0;class#GetIntersectionNode#0" expanded="true" />
+                <element signature="method#getIntersectionNode#0;class#GetIntersectionNode#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MinStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#MinStack2#0;class#MinStack2#0" expanded="true" />
-                <element signature="method#MinStack2#0;class#MinStack2#0" expanded="true" />
-                <element signature="method#push#0;class#MinStack2#0" expanded="true" />
-                <element signature="method#pop#0;class#MinStack2#0" expanded="true" />
-                <element signature="method#top#0;class#MinStack2#0" expanded="true" />
-                <element signature="class#MinStack#0" expanded="false" />
-                <element signature="docComment;method#MinStack#0;class#MinStack#0" expanded="true" />
-                <element signature="method#MinStack#0;class#MinStack#0" expanded="true" />
-                <element signature="method#push#0;class#MinStack#0" expanded="true" />
-                <element signature="method#pop#0;class#MinStack#0" expanded="true" />
-                <element signature="method#top#0;class#MinStack#0" expanded="true" />
-                <element signature="method#getMin#0;class#MinStack#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/util/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
-              <folding>
-                <element signature="docComment;method#pop#0;class#Stack#0" expanded="true" />
-                <element signature="method#pop#0;class#Stack#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BitManipulation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BitManipulation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2755">
-              <caret line="145" column="14" lean-forward="false" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
-              <folding>
-                <element signature="method#main#0;class#BitManipulation#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ATest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ATest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2223">
-              <caret line="117" column="26" lean-forward="false" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -150,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Merge.java" />
         <option value="$PROJECT_DIR$/src/MergeTwoLists.java" />
         <option value="$PROJECT_DIR$/src/MergeKLists.java" />
         <option value="$PROJECT_DIR$/src/IsSameTree.java" />
@@ -201,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/SingleNumber3.java" />
         <option value="$PROJECT_DIR$/src/CountBits.java" />
         <option value="$PROJECT_DIR$/src/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/GetIntersectionNode.java" />
       </list>
     </option>
   </component>
@@ -211,8 +151,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1122" />
-    <option name="width" value="806" />
+    <option name="x" value="855" />
+    <option name="width" value="1073" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -441,14 +381,7 @@
       <workItem from="1527110565792" duration="113000" />
       <workItem from="1527151799975" duration="193000" />
       <workItem from="1527181576107" duration="10711000" />
-      <workItem from="1527245095468" duration="1900000" />
-    </task>
-    <task id="LOCAL-00054" summary="104. Maximum Depth of Binary Tree">
-      <created>1525774901542</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1525774901543</updated>
+      <workItem from="1527245095468" duration="4792000" />
     </task>
     <task id="LOCAL-00055" summary="110. Balanced Binary Tree">
       <created>1525776817164</created>
@@ -786,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527188558828</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="155. Min Stack">
+      <created>1527247020790</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1527247020790</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366802000" />
+    <option name="totallyTimeSpent" value="369694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,7 +742,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1122" y="0" width="806" height="1050" extended-state="0" />
+    <frame x="855" y="0" width="1073" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -817,7 +757,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33178115" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17665616" sideWeight="0.4842474" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12912913" sideWeight="0.4842474" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24915445" sideWeight="0.49008167" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -872,7 +812,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="191. Number of 1 Bits" />
     <MESSAGE value="461. Hamming Distance" />
     <MESSAGE value="477. Total Hamming Distance" />
     <MESSAGE value="231. Power of Two" />
@@ -897,7 +836,8 @@
     <MESSAGE value="ignore" />
     <MESSAGE value="260. Single Number III" />
     <MESSAGE value="338. Counting Bits" />
-    <option name="LAST_COMMIT_MESSAGE" value="338. Counting Bits" />
+    <MESSAGE value="155. Min Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="155. Min Stack" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -973,7 +913,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MinStack.java</url>
-          <line>80</line>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="158" />
         </line-breakpoint>
@@ -991,13 +931,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BuildTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PathSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1348,14 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2223">
-          <caret line="117" column="26" lean-forward="false" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SingleNumber2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -1377,43 +1302,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BitManipulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2755">
-          <caret line="145" column="14" lean-forward="false" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
-          <folding>
-            <element signature="method#main#0;class#BitManipulation#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CountBits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="method#countBits2#0;class#CountBits#0" expanded="true" />
-            <element signature="method#countBits#0;class#CountBits#0" expanded="true" />
-            <element signature="method#cBits#0;class#CountBits#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="114">
           <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
           <folding>
-            <element signature="docComment;method#pop#0;class#Stack#0" expanded="true" />
-            <element signature="method#pop#0;class#Stack#0" expanded="true" />
+            <element signature="docComment;method#pop#0;class#Stack#0" expanded="false" />
+            <element signature="method#pop#0;class#Stack#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="342">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#MinStack2#0;class#MinStack2#0" expanded="true" />
@@ -1428,6 +1331,47 @@
             <element signature="method#pop#0;class#MinStack#0" expanded="true" />
             <element signature="method#top#0;class#MinStack#0" expanded="true" />
             <element signature="method#getMin#0;class#MinStack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BitManipulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="145" column="14" lean-forward="false" selection-start-line="145" selection-start-column="14" selection-end-line="145" selection-end-column="14" />
+          <folding>
+            <element signature="method#main#0;class#BitManipulation#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="117" column="26" lean-forward="false" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CountBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="method#countBits2#0;class#CountBits#0" expanded="true" />
+            <element signature="method#countBits#0;class#CountBits#0" expanded="true" />
+            <element signature="method#cBits#0;class#CountBits#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetIntersectionNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="37" />
+          <folding>
+            <element signature="method#getIntersectionNode2#0;class#GetIntersectionNode#0" expanded="true" />
+            <element signature="method#getIntersectionNode#0;class#GetIntersectionNode#0" expanded="true" />
           </folding>
         </state>
       </provider>
