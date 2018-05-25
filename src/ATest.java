@@ -115,9 +115,10 @@ public class ATest {
 //405. Convert a Number to Hexadecimal
 //        System.out.println(new ToHex().toHex3(-1));
 //137. Single Number II
-        int[] i = {-2, -2, 3, 3, 3};
-        System.out.println(new SingleNumber2().singleNumber2(i));
-
+//        int[] i = {-2, -2, 3, 3, 3};
+//        System.out.println(new SingleNumber2().singleNumber2(i));
+//    int[] i = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31};
+//        HashSet<Integer> set = new HashSet(Arrays.asList(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31));
     }
 
 

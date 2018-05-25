@@ -16,6 +16,7 @@ Example 2:
 Input: [2,2,1,1,1,2,2]
 Output: 2
  */
+
 public class MajorityElement {
     //bit manipulation;
     // O(32n);18ms;

@@ -28,7 +28,7 @@ Explanation:
 14 -> 1110 (3 set bits, 3 is prime)
 15 -> 1111 (4 set bits, 4 is not prime)
  */
-//bit manipulation;
+//bit manipulation;//初始化
 public class CountPrimeSetBits {
     int[] i = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31};
     HashSet<Integer> set = new HashSet(Arrays.asList(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31));
