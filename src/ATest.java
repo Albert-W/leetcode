@@ -119,6 +119,11 @@ public class ATest {
 //        System.out.println(new SingleNumber2().singleNumber2(i));
 //    int[] i = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31};
 //        HashSet<Integer> set = new HashSet(Arrays.asList(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31));
+//653. Two Sum IV - Input is a BST
+        int[] i = {2, 1, 3};
+        TreeNode a = new BuildTree().buildTree(i);
+        System.out.println(new TwoSum4().findTarget(a, 3));
+
     }
 
 
