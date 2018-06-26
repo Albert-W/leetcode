@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3728f511-bde5-4795-a462-4381dac7d193" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ConvertToTitle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TitleToNumber.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ATest.java" afterPath="$PROJECT_DIR$/src/ATest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/TitleToNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
-              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+              <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
               <folding>
                 <element signature="method#titleToNumber#0;class#TitleToNumber#0" expanded="true" />
               </folding>
@@ -54,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/ATest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="116" column="38" lean-forward="true" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+              <caret line="114" column="38" lean-forward="true" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -417,14 +415,7 @@
       <workItem from="1527343989532" duration="677000" />
       <workItem from="1527451844305" duration="254000" />
       <workItem from="1528976859351" duration="1375000" />
-      <workItem from="1530011907932" duration="2797000" />
-    </task>
-    <task id="LOCAL-00060" summary="109. Convert Sorted List to Binary Search Tree">
-      <created>1525795035563</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1525795035563</updated>
+      <workItem from="1530011907932" duration="2825000" />
     </task>
     <task id="LOCAL-00061" summary="104. Maximum Depth of Binary Tree">
       <created>1525796722414</created>
@@ -762,11 +753,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527452070000</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="171. Excel Sheet Column Number">
+      <created>1530014733539</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1530014733540</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381297000" />
+    <option name="totallyTimeSpent" value="381325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -848,7 +846,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="326. Power of Three" />
     <MESSAGE value="342. Power of Four" />
     <MESSAGE value="389. Find the Difference" />
     <MESSAGE value="268. Missing Number" />
@@ -873,7 +870,8 @@
     <MESSAGE value="167. Two Sum II - Input array is sorted" />
     <MESSAGE value="653. Two Sum IV - Input is a BST" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="171. Excel Sheet Column Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="171. Excel Sheet Column Number" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1360,7 +1358,7 @@
     <entry file="file://$PROJECT_DIR$/src/TitleToNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
           <folding>
             <element signature="method#titleToNumber#0;class#TitleToNumber#0" expanded="true" />
           </folding>
@@ -1370,7 +1368,7 @@
     <entry file="file://$PROJECT_DIR$/src/ATest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="116" column="38" lean-forward="true" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+          <caret line="114" column="38" lean-forward="true" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
           <folding />
         </state>
       </provider>
