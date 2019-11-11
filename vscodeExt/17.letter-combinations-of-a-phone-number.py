@@ -8,7 +8,7 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         # 不使用循环遍历，而使用递归。
-
+        # 也可以用list 替代，下标可用。 
         d = {
             '1':"",
             '2':'abc',
