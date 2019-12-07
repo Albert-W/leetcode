@@ -12,6 +12,7 @@ class Solution:
             return 0
         if len(s) == 1:
             return 1    
+        #[i,j] is the substring     
         i = 0
         j = 1
         r = 1

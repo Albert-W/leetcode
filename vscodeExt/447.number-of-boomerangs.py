@@ -6,9 +6,11 @@
 
 # @lc code=start
 class Solution:
+    # dis[i,j] = dis[i, k]
     def numberOfBoomerangs(self, points: List[List[int]]) -> int:
         res = 0 
         i = 0
+        # 对每一个i, 建立一个d[key = distance, value = count] # 求An(2)
         while i < len(points):
             d = {}
             j = 0
