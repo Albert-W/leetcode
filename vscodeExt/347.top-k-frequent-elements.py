@@ -48,7 +48,7 @@ class Solution:
             if len(queue) > k:
                 heapq.heappop(queue)
         res = []
-        # 展开了tuple, 取第二个。 
+        # 展开了tuple, 取第二个，输出结果
         for c, n in queue:
             print(c,n)
             res.append(n)
