@@ -24,7 +24,10 @@ class Solution:
         if len(digits) == 0:
             return []
         if len(digits) == 1:
-            return d[digits[0]]    
+
+            print([char for char in d[digits[0]] ])
+            return [char for char in d[digits[0]] ]
+            # return d[digits[0]]    
         # 最终结果
         res = []
         # 问题规模为 n-1的情况

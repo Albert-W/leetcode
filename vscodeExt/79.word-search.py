@@ -6,10 +6,12 @@
 
 # @lc code=start
 class Solution:
+    # 定义方向
     d = [(-1,0),(0,1),(1,0),(0,-1)]
     m = 0
     n = 0
 
+    # 函数入口
     def exist(self, board: List[List[str]], word: str) -> bool:
         if len(board) == 0 :
             return False
@@ -33,6 +35,7 @@ class Solution:
     def isValid(self, x, y):
         return x>= 0 and x<self.m and y >=0 and y< self.n
 
+    # 回溯主体
     def findWord(self, board, word, x, y):
         # 如果不匹配，或被访问过，返回False.
         if board[x][y] != word[0]: 

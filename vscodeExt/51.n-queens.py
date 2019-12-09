@@ -34,9 +34,10 @@ class Solution:
             # 当前旗盘存入结果中    
             self.result.append(snapshot)    
 
-        # 第n子，就放在第n-1行
+        # 首先处理第n子
+        # 就放在第n-1行
         row = n-1
-        # 寻找可以放在列[n-1, i]
+        # 遍历寻找列，可以放在列[n-1, i]
         for i in range(rowN):
             col = i
             # 如果当前位置可以放下去

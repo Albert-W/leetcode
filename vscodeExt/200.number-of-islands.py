@@ -10,6 +10,7 @@ class Solution:
     isVisited = []
     m = 0
     n = 0 
+    #  函数入口
     def numIslands(self, grid: List[List[str]]) -> int:
         self.m = len(grid)
         if self.m == 0:
