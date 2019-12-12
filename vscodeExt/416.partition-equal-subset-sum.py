@@ -26,8 +26,9 @@ class Solution:
         # 第[0,i] 物品可以填充的。
         for i in range(1, len(nums)):
             # 反向考察
-            # j 容量 在[C, nums[i]]中， 可以被两种方式填充。 
+            # j 容量 在[C, nums[i]]中， 可以被两种方式填充。# 无素只能使用一次，只能用反向循环。  
             for j in range( C , nums[i]-1 , -1):
+            # for j in range(  nums[i] , C + 1):
                 memo[j] = memo[j] or memo[j - nums[i]]
  
         return memo[C] 

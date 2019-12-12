@@ -13,13 +13,24 @@ class Solution:
             return 0
         # 使用最小化时不应用 -1来标记
         memo = [amount+2] * (amount+1)
-
+        memo[0] = 0
         coins.sort()
-        print(coins)
+        # print(coins)
         return self.package(coins, memo, amount)
 
-    # Time Limit Exceeded 37/182 
-    def package(self, coins, memo, C):
+    def package(self, coins, memo, C):       
+        for coin in coins:
+            for i in range(coin, C+1):
+                memo[i] = min(memo[i], memo[i-coin]+1)  
+            # print(memo)    
+
+        if memo[C] > C:
+            return -1
+        else:
+            return memo[C] 
+
+    # Time Limit Exceeded 58/182 
+    def package_e1(self, coins, memo, C):
         for i in range(C+1):
             if i % coins[0] == 0:
                 memo[i] = i//coins[0]
@@ -27,20 +38,22 @@ class Solution:
         for i in range(1, len(coins)):
             for j in range(C, coins[i]-1, -1):
                 k = j - coins[i]
-                while k >= 0 and memo[k] <= C :
-                    memo[j] = min(memo[j], memo[ k ] + (j-k) //coins[i] )    
+                # 如果 k 被完全填充
+                # 循环条件与判断条件不可以在同一行。 
+                # 否则循环会提前推出。 
+                while k >= 0  :
+                    if memo[k]<(C+2):
+                        memo[j] = min(memo[j], memo[ k ] + (j-k) //coins[i] )    
                     k = k - coins[i]
 
-
-            print(memo)
+            # print(memo)
         if memo[C] > C:
             return -1
         else:
-
             return memo[C]    
 
          
-        
+
 
 # @lc code=end
 
