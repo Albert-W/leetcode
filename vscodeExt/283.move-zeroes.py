@@ -12,12 +12,14 @@ class Solution:
         """
         k = 0 #[0,k) are non-zeroes
         i = 0 
+        # 非零树全部前移到k
         while i < len(nums):
             if nums[i] :
                 nums[k] = nums[i]
                 k += 1
             
             i+=1    
+        # 剩余的全部置0    
         while k < len(nums):
             nums[k]  = 0 
             k+=1

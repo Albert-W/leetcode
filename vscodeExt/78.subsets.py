@@ -17,7 +17,9 @@ class Solution:
         print(temp)
         for item in temp:
             res.append(item[:])
+            # 改造item
             item.append(nums[-1])
+            # 添加item
             res.append(item[:])
         return res             
 

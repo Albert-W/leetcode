@@ -6,11 +6,11 @@
 
 # @lc code=start
 class Solution:
-
+    # runtime beats 98.49 % 
     def isSubsequence(self, s: str, t: str) -> bool:
-        # 使用find加速查找
-        
+        # 使用find加速查找        
         j = 0 
+        # 在t中寻找s 的每个字符
         for i in s :
             k = t[j:].find(i)
             if k == -1:
@@ -19,8 +19,8 @@ class Solution:
             print(j)
         return True
 
-
-    def isSubsequence_T1(self, s: str, t: str) -> bool:
+    # runtime beats 16.29 %
+    def isSubsequence_1(self, s: str, t: str) -> bool:
         # 双指针，一次循环
         i = 0 
         j = 0 
