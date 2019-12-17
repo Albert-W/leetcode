@@ -53,7 +53,9 @@ class Solution:
             print(c,n)
             res.append(n)
         return res
-
-
+    # 104ms:
+    def topKFrequent_N1(self, nums: List[int], k: int) -> List[int]:
+        count = collections.Counter(nums)
+        return heapq.nlargest(k, count.keys(), key=count.get)
 # @lc code=end
 
