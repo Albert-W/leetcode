@@ -8,6 +8,8 @@
 # Your runtime beats 5.03 % of python3 submissions
 # Your memory usage beats 16.51 % of python3 submissions (14.7 MB)
 # 
+
+# 对有序循环，还可以使用双索引
 # 暴力双重循环
 class Solution_1:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
