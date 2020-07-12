@@ -33,7 +33,7 @@ class Solution_fail:
             return False  
 
 class Solution:
-    
+    # 超时
     def longestPalindrome_1(self, s: str) -> str:
         if len(s)< 2:
             return s 
