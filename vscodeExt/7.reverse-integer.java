@@ -38,12 +38,16 @@ class Solution {
         int rs = 0;
         while(x>0){
             // 如果溢出发生在*10 阶段
-            // 不是特别严紧
-            if(Integer.MAX_VALUE  / 10 < rs  ){
+            if(Integer.MAX_VALUE  / 10 < rs ){
                 return 0;
             }
             // 乘10 会 左移3位多。
             rs = rs * 10 + x%10;
+            // 如果溢出发生在 + 阶段
+            if(rs < 0){
+                return 0;
+            }
+
             x = x / 10;
         }
         return rs;
