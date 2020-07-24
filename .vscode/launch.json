@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CountDiv",
+            "request": "launch",
+            "mainClass": "CountDiv",
+            "projectName": "leetcode_41d5589e"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Solution",
             "request": "launch",
             "mainClass": "Solution",
