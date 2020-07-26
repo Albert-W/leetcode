@@ -1,9 +1,25 @@
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Deque;
+import java.util.List;
+
 public class Dominator {
     public static void main(String[] args) {
-        // int[] a = {0, 5, 1, 2, 3, 2, 9, 2, 2};
-        int[] a = {2, 9, 2, 20, 5, 1, 2, 3, 2, 9, 2, 2};
-        int r = new Solution().solution(a);
-        System.out.println(r);
+        String s = "hello";
+        StringBuilder sb = new StringBuilder("world");
+        String s1 = sb.substring(1); //orld
+        String s2 = sb.substring(2, 4);//rl
+        String s3 = sb.toString(); //world
+
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s3);
+
+        sb.setLength(10);
+        sb.append('e');
+        System.out.println(sb);
+        System.out.println(sb.length());
     }    
 }
 
