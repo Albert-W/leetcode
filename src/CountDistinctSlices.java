@@ -2,8 +2,10 @@ import java.util.*;
 public class CountDistinctSlices {
     public static void main(String[] args) {
         
-        int[] a = {1,1};
-        int x = new Solution().solution(3, a);
+        String s = "hellol";
+        s = s.replace("l", "n");
+        
+        System.out.println(s);
     }
 }
 
