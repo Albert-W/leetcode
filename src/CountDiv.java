@@ -9,15 +9,8 @@ public class CountDiv {
     
 }
 class Solution {
+
     public int solution(int A, int B, int K) {
-        if((B-A)%K ==0 ){
-            return (B-A)/K ;
-        }
-    }
-
-
-
-    public int solution_e(int A, int B, int K) {
         // write your code in Java SE 8
         // B/K + 1 =[0,B]中 满足条件数。
         // A/K + 1 =[0,A]中 满足条件数。

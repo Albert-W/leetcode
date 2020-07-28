@@ -22,6 +22,7 @@ class Solution {
                 while(!stack.isEmpty() && stack.peek() < A[i]){
                     stack.pop();
                 } 
+                // 要么吃光所有向下的，要么被其中一只吃掉
                 if(stack.isEmpty()){
                     sum += 1;
                 }

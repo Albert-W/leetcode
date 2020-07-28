@@ -24,15 +24,16 @@ class Solution {
                 // 比当前头更高，则入栈待处理
                 if(i>stack.peek()){
                     stack.push(i);
-                // 比当前低，处理它，并处理它之前的item    
+                // 比栈顶低，处理它，并处理它之前的item    
                 } else while(!stack.isEmpty() && i<stack.peek()){
                     sum += 1;
                     stack.pop();
                 } 
-                // 如果不相等，则入栈。相等不处理。 
+                // 比栈顶高，则入栈。 
                 if(stack.isEmpty() ||  i != stack.peek()){
                     stack.push(i);
                 } 
+                // 与栈顶一样高，则不处理。
             
             }
             //System.out.println(stack);

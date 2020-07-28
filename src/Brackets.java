@@ -7,6 +7,7 @@ public class Brackets {
     
 }
 class Solution {
+    // ???????
     public int solution(String S) {
         Deque<Character> stack = new ArrayDeque<Character>();
 
@@ -37,7 +38,7 @@ class Solution {
 
 
 
-
+    // 自己的
     // 通过
     public int solution_p(String S) {
         // write your code in Java SE 8

@@ -2,6 +2,7 @@ public class PassingCars {
     
 }
 class Solution {
+    // 寻找（0，1） 匹配对
     public int solution(int[] A) {
         // write your code in Java SE 8
         int[] memo = new int[A.length+1];

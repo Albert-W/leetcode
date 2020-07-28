@@ -10,8 +10,40 @@ import sun.net.www.content.audio.basic;
 
 // @lc code=start
 class Solution {
-    //
+    // 使用复制传值， 与 实例变量；
+
+    int start = 0;
+    int len = 1;
     public String longestPalindrome(String s) {
+        // 当为“” 时 subString出错。 
+        if( s.length() < 2){
+            return s;
+        }
+
+        for(int i = 0;i<s.length()-1;i++){
+            extend(s,i,i);
+            extend(s,i,i+1);
+        }
+        return s.substring(start, start+len );
+
+    }
+    // 向两边扩展
+    void extend(String s, int i , int j){
+        while(i >=0  && j < s.length() && s.charAt(i) == s.charAt(j)){
+            i -= 1;
+            j += 1;
+        }
+        // 此时已经不等
+        if( j -i- 1> len){
+            len = j -i- 1;
+            start = i+1;
+        }
+    }
+
+
+
+    // 分开讨论的
+    public String longestPalindrome_1(String s) {
         if(s.length() <2){
             return s;
         }
