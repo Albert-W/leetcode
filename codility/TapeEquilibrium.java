@@ -2,6 +2,7 @@ public class TapeEquilibrium {
     
 }
 class Solution {
+    // 使两边和最小
     public int solution(int[] A) {
         // write your code in Java SE 8
         int left = 0;

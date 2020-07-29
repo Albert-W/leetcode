@@ -10,7 +10,7 @@ class Solution {
         int[] B = A.clone();
         Arrays.sort(B);
         for(int i=0;i<B.length-2;i++){
-            if(B[i]>0 && B[i]>B[i+2]-B[i+1]){ //防止越界
+            if(B[i]>B[i+2]-B[i+1]){ //防止越界
                 return 1;
             }
         }

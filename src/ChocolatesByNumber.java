@@ -25,7 +25,7 @@ class Solution {
 
     // 换Array 为 ArrayList;
     // TIMEOUT ERROR, Killed
-    public int solution(int N, int M) {
+    public int solution_e(int N, int M) {
         // write your code in Java SE 8
         List<Integer> memo = new ArrayList<>();
         int sum = 0;

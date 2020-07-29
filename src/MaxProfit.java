@@ -24,6 +24,7 @@ public class MaxProfit {
     //Dynamic programming.
     //one lane is to find the minimum:min
     //one lane is to compute the profit:prices[i]-min;
+    // 存储截至目前的最低价，计算当前的最大收益
     public int maxProfit(int[] prices) {
         if(prices.length==0)
             return 0;

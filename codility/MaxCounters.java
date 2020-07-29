@@ -10,6 +10,7 @@ public class MaxCounters {
 }
 class Solution {
     // 记录最低值，最后一次性赋值。
+    // 两种操作符
     public int[] solution(int N, int[] A) {
         // write your code in Java SE 8
         int min = 0;
