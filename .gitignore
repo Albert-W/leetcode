@@ -22,3 +22,4 @@ bin/gen/
 .idea/workspace.xml
 .idea/workspace.xml
 *.log
+.DS_Store
