@@ -11,13 +11,13 @@ class Solution(object):
         :type word: str
         :rtype: int
         """
+        
         # ord('a') = 97, ord('A') = 65
         s = set()
         for i in word:
             if ord(i) > 96 and i.upper() in word:
                 s.add(i)
         return len(s)
-
         
 # @lc code=end
 
