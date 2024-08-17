@@ -7,20 +7,20 @@ def solution(N, A):
     # Use two labels to remove the nested loop.
     # O(N + M)
     res = [0] *  N 
-    max_for_all = 0 # in res[], Below this value will be set to it 
-    max_for_current = 0 # Keep track of the maximum in res[], ready to be set to max_for_all
+    min_ = 0 # in res[], Below this value will be set to it 
+    max_ = 0 # Keep track of the maximum in res[], ready to be set to min_
     for i in A: 
         if i <= N: 
-            if res[i - 1] < max_for_all:
-                res[i - 1] = max_for_all + 1
+            if res[i - 1] < min_:
+                res[i - 1] = min_ + 1
             else:
                 res[i - 1] += 1
-            max_for_current = max(max_for_current, res[i - 1])
+            max_ = max(max_, res[i - 1])
         else: 
-            max_for_all = max_for_current
+            min_ = max_
         # print(m)
     for i in range(N):
-        if res[i] < max_for_all:
-            res[i] = max_for_all
+        if res[i] < min_:
+            res[i] = min_
     
     return res
