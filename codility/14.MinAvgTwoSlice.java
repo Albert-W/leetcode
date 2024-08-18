@@ -5,6 +5,11 @@ class Solution {
     public int solution(int[] A) {
         // write your code in Java SE 8
         // 最小平均值只能发生了2元组，三元组之中。
+        // 证明：取四元组 【a,b,c,d】， 
+        // if a + b < c + d, then avg(a, b) < avg(a, b, c, d)
+        // if a + b > c + d, then avg(c, d) < avg(a, b, c, d)
+        // so min avg slice will always be slice of 2 or 3 elements.
+    
         int[] memo = new int[A.length + 1];
         for(int i = 0;i<A.length;i++){
             memo[i+1] = memo[i] + A[i];
