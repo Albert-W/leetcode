@@ -9,6 +9,10 @@ public class MaxDoubleSliceSum {
     }
     
 }
+// Example test:   [3, 2, 6, -1, 4, 5, -1, 2]
+// Output:
+// [0, 0, 2, 8, 7, 11, 16, 15, 17]
+// [16, 14, 8, 9, 5, 0, 0, 0, 0]
 class Solution {
     public int solution(int[] A) {
         // write your code in Java SE 8
