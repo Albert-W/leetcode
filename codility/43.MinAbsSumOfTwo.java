@@ -7,8 +7,8 @@ import java.util.*;
 class Solution {
     public int solution(int[] A) {
         // Implement your solution here
-        // A[0] < 0, A[-1] > 0;
-
+        
+        Arrays.sort(A);
         int min = 0;
         int max = A.length - 1;
         int res = Math.abs(A[min] + A[max]);

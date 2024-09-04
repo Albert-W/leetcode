@@ -18,8 +18,8 @@
 
 def solution(N):
     # Implement your solution here
-    # Get the binary persentation
-    bin_n = bin(N)[2:]
+    # Get the binary presentation
+    bin_n = bin(N)[2:] # bin(9) = '0b1001'
 
     # print(bin_n)
     # Get all get length of gaps 
