@@ -13,6 +13,23 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
+        def getMaximum(node):
+            while node.right:
+                node = node.right
+            return node.val
+        def getMinimum(node):
+            while node.left:
+                node = node.left
+            return node.val
+        if not root:
+            return True
+        if root.left and getMaximum(root.left) >= root.val:
+            return False
+        if root.right and getMinimum(root.right) <= root.val:
+            return False
+        return self.isValidBST(root.left) and self.isValidBST(root.right)
+        
+        
         def validate(node, low, high):
             if not node:
                 return True
