@@ -5,8 +5,19 @@
 #
 
 # @lc code=start
+from collections import Counter
 class Solution(object):
     def uncommonFromSentences(self, s1, s2):
+        res = []
+        arr = s1.split() + s2.split()
+        count = Counter(arr)
+        for i in count:
+            if count[i] == 1:
+                res.append(i)
+            
+        return res
+        
+    def uncommonFromSentences_1(self, s1, s2):
         """
         :type s1: str
         :type s2: str

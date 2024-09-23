@@ -5,8 +5,12 @@
 #
 
 # @lc code=start
+import heapq
 class Solution(object):
     def findKthLargest(self, nums, k):
+        return heapq.nlargest(k, nums)[-1]
+            
+    def findKthLargest_1(self, nums, k):
         """
         :type nums: List[int]
         :type k: int
